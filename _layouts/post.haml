@@ -1,0 +1,16 @@
+!!!5
+%html
+  {% convert_include global_head.haml %}
+  %body
+    #container
+      {% convert_include global_nav.haml %}
+      #content.post
+        %h1
+          %a{:href => "{{page.url}}"}<
+            {{ page.title }} 
+          %span.byline<
+            by {{ page.author }}
+          %span.date<
+            posted {{ page.date | date_to_long_string }}
+        %article
+          {{ content }}
