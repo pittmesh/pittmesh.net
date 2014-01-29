@@ -9,4 +9,4 @@ guided under the auspices of [META MESH](http://www.metamesh.org). For a brief
 introduction to PittMesh and mesh networking in general, please view our
 [informational video](https://www.youtube.com/watch?v=OvAT7DTspaM).
 
-PittMesh currently has **1** node online.
+PittMesh currently has **3** nodes online. Locations on the map forthcoming.
