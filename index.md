@@ -12,4 +12,5 @@ introduction to PittMesh and mesh networking in general, please view our
 
 PittMesh currently has **5** nodes online. Locations on the map forthcoming.
 
-Want to host a node or donate equipment? [Contact us.](http://www.metamesh.org/contact.html)
+Want to help us build the future of connectivity in Pittsburgh? 
+[Contact us.](http://www.metamesh.org/contact.html)
