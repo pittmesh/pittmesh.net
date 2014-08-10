@@ -2,11 +2,11 @@ onLoadMarkers([
   {
     "lat": 40.4377353,
     "lon": -79.9778807,
-    "name": "Alpha"
+    "name": "Alfa"
   },
   {
     "lat": 40.4294158,
     "lon": -79.9709646,
-    "name": "Beta"
+    "name": "Bravo"
   }
 ]);

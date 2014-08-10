@@ -10,7 +10,11 @@ Found a bug in the site? Please file an issue and consider submitting a pull
 request.
 
 Need to add more nodes? Add it yourself and submit the pull request, or file an
-issue.
+issue. Ensure that you have permission from the node host to put the point on
+the map, especially when using their name. It's probably better to use letters
+from the [NATO phonetic
+alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) if you're
+unsure.
 
 Deploying
 ---------

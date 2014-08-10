@@ -14,9 +14,11 @@ $(function(){
 
       var tag = document.createElement("a");
       tag.setAttribute("class","node");
-      //tag.appendChild(document.createTextNode(marker.name));
+      tag.setAttribute("title", marker.name + " at " + loc);
+
       var img = tag.appendChild(document.createElement("img"));
       img.setAttribute("src","/node-data/map_pin.png");
+      img.setAttribute("alt","map point");
 
       console.log("Adding marker ["+marker.name+":"+ marker.lat +","+ marker.lon + "] at " + loc + " with HTML " + tag);
       markersLayer.addMarker(tag, loc);
