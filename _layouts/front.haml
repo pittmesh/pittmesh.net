@@ -7,3 +7,15 @@
       -#{% convert_include global_nav.haml %}
       #content.page
         {{ content }}
+      %footer
+        %p.attribution
+          %a#home-link{href: "http://maps.stamen.com/#terrain/12/40.4113/-79.8255", target: "_top"} Map tiles
+          by
+          = succeed "," do
+            %a{href: "http://stamen.com", target: "_top"} Stamen Design
+          = succeed "." do
+            %a{href: "http://creativecommons.org/licenses/by/3.0", target: "_top"} CC BY 3.0
+          = succeed "," do
+            %a{href: "http://openstreetmap.org", target: "_top"} OpenStreetMap
+          = succeed "." do
+            %a{href: "http://creativecommons.org/licenses/by-sa/3.0", target: "_top"} CC BY SA

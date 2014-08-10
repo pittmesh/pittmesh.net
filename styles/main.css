@@ -29,3 +29,24 @@
   width: 32px;
   height: 32px;
 }
+
+footer {
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  padding: 1px;
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-size: 10px;
+  border-radius: 5px 0 0 0;
+}
+footer p {
+  margin: 0px;
+  padding: 0px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
