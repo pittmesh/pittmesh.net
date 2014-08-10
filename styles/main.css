@@ -22,3 +22,10 @@
   right: 0;
   z-index: 0;
 }
+
+.node {
+  margin-left: -16px;
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+}

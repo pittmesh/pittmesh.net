@@ -3,8 +3,7 @@
   {% convert_include global_head.haml %}
   %body
     #container
-      %iframe{:id=>"map", :src=>"//maps.stamen.com/terrain/embed#12/40.4536/-79.9374"}
+      %div{:id=>"map"}
       -#{% convert_include global_nav.haml %}
       #content.page
         {{ content }}
-
