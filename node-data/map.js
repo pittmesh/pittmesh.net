@@ -7,23 +7,36 @@ $(function(){
   map.addLayer(markersLayer);
 
   window.onLoadMarkers = function(markers){
+    var liveMarkers = 0;
+    var plannedMarkers = 0;
     for (var index in markers) {
       marker = markers[index];
 
-      var loc = new MM.Location(marker.lat, marker.lon);
+      switch(marker.status){
+          case "live":
+            var loc = new MM.Location(marker.lat, marker.lon);
 
-      var tag = document.createElement("a");
-      tag.setAttribute("class","node");
-      tag.setAttribute("title", marker.name + " at " + loc);
+            var tag = document.createElement("a");
+            tag.setAttribute("class","node");
+            tag.setAttribute("title", marker.name + " at " + loc);
 
-      var img = tag.appendChild(document.createElement("img"));
-      img.setAttribute("src","/node-data/map_pin.png");
-      img.setAttribute("alt","map point");
+            var img = tag.appendChild(document.createElement("img"));
+            img.setAttribute("src","/node-data/map_pin.png");
+            img.setAttribute("alt","map point");
 
-      console.log("Adding marker ["+marker.name+":"+ marker.lat +","+ marker.lon + "] at " + loc + " with HTML " + tag);
-      markersLayer.addMarker(tag, loc);
+            console.log("Adding marker ["+marker.name+":"+ marker.lat +","+ marker.lon + "] at " + loc + " with HTML " + tag);
+            markersLayer.addMarker(tag, loc);
+            liveMarkers++;
+            break;
+          case "planned":
+            plannedMarkers++;
+            break;
+      }
     }
-    $("#number").text(markers.length);
+    $("#live").text(liveMarkers);
+    if(plannedMarkers > 0) {
+      $("#planned").text(", with " + plannedMarkers + " planned")
+    }
   }
 
   var script = document.createElement("script");
