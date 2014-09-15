@@ -34,8 +34,9 @@ $(function(){
       }
     }
     $("#live").text(liveMarkers);
+    
     if(plannedMarkers > 0) {
-      $("#planned").text(", with " + plannedMarkers + " planned")
+      $("#planned").text("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " planned for deployment.")
     }
   }
 
