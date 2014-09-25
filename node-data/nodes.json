@@ -26,7 +26,7 @@ onLoadMarkers([
   {
     "lat": 40.42196294939257,
     "lon": -79.99247029423714,
-    "name": "835 E Warrington Ave, Allentown",
+    "name": "Pittsburgh Police? @ 835 E Warrington Ave, Allentown",
     "status": "planned"
   },  
   {
@@ -44,7 +44,7 @@ onLoadMarkers([
   {
     "lat": 40.431743003452226,
     "lon": -79.95693370699883,
-    "name": "3442 Frazier Street, South Oakland",
+    "name": "3442 Frazier St, South Oakland",
     "status": "live"
   }, 
   {
@@ -52,5 +52,11 @@ onLoadMarkers([
     "lon": -79.9780909717083,
     "name": "Hack Pittsburgh @ 1936 5th Avenue, Uptown",
     "status": "live"
-  }, 
+  },
+  {
+    "lat": 40.425816,
+    "lon": -79.9761128,
+    "name": "The Brew House @ 2100 Mary St, South Side Flats",
+    "status": planned
+  }
 ]);
