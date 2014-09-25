@@ -2,55 +2,55 @@ onLoadMarkers([
   {
     "lat": 40.4217654,
     "lon": -79.99593829999998,
-    "name": "635 E Warrington: Sweet Peaches",
+    "name": "Sweet Peaches @ 635 E Warrington, Allentown",
     "status": "planned"
   },
   {
     "lat": 40.42183588884596,
     "lon": -79.9955601990223,
-    "name": "701 E Warrington",
+    "name": "701 E Warrington Ave, Allentown",
     "status": "planned"
   },
   {
     "lat": 40.42162363944305,
     "lon": -79.99721378087997,
-    "name": "604 E Warrington",
+    "name": "604 E Warrington Ave, Allentown",
     "status": "planned"
   },
   {
     "lat": 40.42178246558993,
     "lon": -79.99411851167679,
-    "name": "744 E Warrington: The Hardware Store",
-    "status": "planned"
+    "name": "The Hardware Store @ 744 E Warrington Ave, Allentown",
+    "status": "live"
   },  
   {
     "lat": 40.42196294939257,
     "lon": -79.99247029423714,
-    "name": "835 E Warrington",
+    "name": "835 E Warrington Ave, Allentown",
     "status": "planned"
   },  
   {
     "lat": 40.42146770067946,
     "lon": -79.99228522181511,
-    "name": "1210 Arlington",
+    "name": "1210 Arlington Ave, Allentown",
     "status": "planned"
   },
   {
     "lat": 40.417765492763436,
     "lon": -79.98515456914902,
-    "name": "1733 Arlington",
+    "name": "1733 Arlington Ave, South Side Slopes",
     "status": "live"
   }, 
   {
     "lat": 40.431743003452226,
     "lon": -79.95693370699883,
-    "name": "3442 Frazier",
+    "name": "3442 Frazier Street, South Oakland",
     "status": "live"
   }, 
   {
     "lat": 40.437934569892626,
     "lon": -79.9780909717083,
-    "name": "1936 5Th Avenue",
+    "name": "Hack Pittsburgh @ 1936 5th Avenue, Uptown",
     "status": "live"
   }, 
 ]);
