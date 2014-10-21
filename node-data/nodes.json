@@ -3,7 +3,7 @@ onLoadMarkers([
     "lat": 40.4217654,
     "lon": -79.99593829999998,
     "name": "Sweet Peaches @ 635 E Warrington, Allentown",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.42183588884596,
@@ -57,6 +57,6 @@ onLoadMarkers([
     "lat": 40.425816,
     "lon": -79.9761128,
     "name": "The Brew House @ 2100 Mary St, South Side Flats",
-    "status": planned
+    "status": "live"
   }
 ]);
