@@ -1,7 +1,7 @@
 $(function(){
   var layer = new MM.StamenTileLayer("terrain");
   var map = new MM.Map("map", layer);
-  map.setCenterZoom(new MM.Location(40.4536, -79.9374), 12);
+  map.setCenterZoom(new MM.Location(40.4332259, -79.9879362), 14);
 
   markersLayer = new MM.MarkerLayer();
   map.addLayer(markersLayer);
@@ -34,7 +34,7 @@ $(function(){
       }
     }
     $("#live").text(liveMarkers);
-    
+
     if(plannedMarkers > 0) {
       $("#planned").text("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " planned for deployment.")
     }
