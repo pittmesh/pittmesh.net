@@ -2,8 +2,14 @@ onLoadMarkers([
   {
     "lat": 40.4217654,
     "lon": -79.99593829999998,
-    "name": "Sweet Peaches @ 635 E Warrington, Allentown",
+    "name": "Sweet Peaches @ 635 E Warrington Ave, Allentown",
     "status": "live"
+  },
+  {
+    "lat": 40.421535,
+    "lon": -79.992927,
+    "name": "Amsler's Pharmacy @ 818 E Warrington Ave, Allentown",
+    "status": "planned"
   },
   {
     "lat": 40.42183588884596,
