@@ -65,4 +65,22 @@ onLoadMarkers([
     "name": "The Brew House @ 2100 Mary St, South Side Flats",
     "status": "live"
   }
+    {
+    "lat": 40.421108,
+    "lon": -79.992794,
+    "name": "RE360",
+    "status": "live"
+  }
+  {
+    "lat": 40.421773,
+    "lon": -79.995162,
+    "name": "Anonymous Node Host",
+    "status": "live"
+  }
+  {
+    "lat": 40.422169,
+    "lon": -79.993279,
+    "name": "Caliguiri Building",
+    "status": "live"
+  }
 ]);
