@@ -18,7 +18,8 @@ $(function(){
 
             var tag = document.createElement("a");
             tag.setAttribute("class","node");
-            tag.setAttribute("title", marker.name + " at " + loc);
+            var address = marker.address.length > 0 ? (" [" + marker.address + "]") : ""
+            tag.setAttribute("title", marker.name + address + " at " + loc);
 
             var img = tag.appendChild(document.createElement("img"));
             img.setAttribute("src","/node-data/map_pin.png");
