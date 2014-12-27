@@ -2,85 +2,113 @@ onLoadMarkers([
   {
     "lat": 40.4217654,
     "lon": -79.99593829999998,
-    "name": "Sweet Peaches @ 635 E Warrington Ave, Allentown",
+    "name": "Sweet Peaches",
+    "address": "635 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "live"
   },
   {
     "lat": 40.421535,
     "lon": -79.992927,
-    "name": "Amsler's Pharmacy @ 818 E Warrington Ave, Allentown",
+    "name": "Amsler's Pharmacy",
+    "address": "818 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "live"
   },
   {
     "lat": 40.42183588884596,
     "lon": -79.9955601990223,
     "name": "701 E Warrington Ave, Allentown",
+    "address": "701 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "planned"
   },
   {
     "lat": 40.42162363944305,
     "lon": -79.99721378087997,
     "name": "604 E Warrington Ave, Allentown",
+    "address": "604 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "planned"
   },
   {
     "lat": 40.42178246558993,
     "lon": -79.99411851167679,
-    "name": "The Hardware Store @ 744 E Warrington Ave, Allentown",
+    "name": "The Hardware Store",
+    "address": "744 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "live"
-  },  
+  },
   {
     "lat": 40.42196294939257,
     "lon": -79.99247029423714,
-    "name": "Pittsburgh Police? @ 835 E Warrington Ave, Allentown",
+    "name": "Pittsburgh Police",
+    "address": "835 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "planned"
-  },  
+  },
   {
     "lat": 40.42146770067946,
     "lon": -79.99228522181511,
     "name": "1210 Arlington Ave, Allentown",
+    "address": "1210 Arlington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "planned"
   },
   {
     "lat": 40.417765492763436,
     "lon": -79.98515456914902,
     "name": "1733 Arlington Ave, South Side Slopes",
+    "address": "1733 Arlington Ave",
+    "hood": "South Side Slopes",
     "status": "live"
-  }, 
+  },
   {
     "lat": 40.431743003452226,
     "lon": -79.95693370699883,
     "name": "3442 Frazier St, South Oakland",
+    "address": "3442 Frazier St",
+    "hood": "South Oakland",
     "status": "live"
-  }, 
+  },
   {
     "lat": 40.437934569892626,
     "lon": -79.9780909717083,
-    "name": "Hack Pittsburgh @ 1936 5th Avenue, Uptown",
+    "name": "Hack Pittsburgh",
+    "address": "1936 5th Avenue",
+    "hood": "Uptown",
     "status": "live"
   },
   {
     "lat": 40.425816,
     "lon": -79.9761128,
-    "name": "The Brew House @ 2100 Mary St, South Side Flats",
+    "name": "The Brew House",
+    "address": "2100 Mary St",
+    "hood": "South Side Flats",
     "status": "live"
   },
     {
     "lat": 40.421108,
     "lon": -79.992794,
-    "name": "RE360 @ 829 Industry Street, Pittsburgh, PA 15210",
+    "name": "RE360",
+    "address": "829 Industry Street, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "live"
   },
   {
     "lat": 40.421773,
     "lon": -79.995162,
     "name": "Anonymous Node Host",
+    "address": "",
+    "hood": "Allentown",
     "status": "live"
   },
   {
     "lat": 40.422169,
     "lon": -79.993279,
-    "name": "Caliguiri Building @ 803 East Warrington Avenue, Pittsburgh, PA 15210",
+    "name": "Caliguiri Building",
+    "address": "803 East Warrington Avenue, Pittsburgh, PA 15210",
+    "hood": "Allentown",
     "status": "live"
   }
 ]);
