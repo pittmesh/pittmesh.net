@@ -68,7 +68,7 @@ onLoadMarkers([
     {
     "lat": 40.421108,
     "lon": -79.992794,
-    "name": "RE360",
+    "name": "RE360 @ 829 Industry Street, Pittsburgh, PA 15210",
     "status": "live"
   }
   {
@@ -80,7 +80,7 @@ onLoadMarkers([
   {
     "lat": 40.422169,
     "lon": -79.993279,
-    "name": "Caliguiri Building",
+    "name": "Caliguiri Building @ 803 East Warrington Avenue, Pittsburgh, PA 15210",
     "status": "live"
   }
 ]);
