@@ -110,5 +110,13 @@ onLoadMarkers([
     "address": "803 East Warrington Avenue, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
+  },
+  {
+    "lat": 40.427044,
+    "lon": -79.982186,
+    "name": "Anonymous Node Host",
+    "address": "",
+    "hood": "South Side",
+    "status": "live"
   }
 ]);
