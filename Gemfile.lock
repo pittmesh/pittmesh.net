@@ -66,6 +66,7 @@ GEM
     rack-jekyll (0.4.1)
       jekyll (>= 0.12.0, < 2.0)
       rack (~> 1.5.0)
+    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -93,3 +94,4 @@ DEPENDENCIES
   jekyll-sass
   mr_poole
   rack-jekyll
+  rake
