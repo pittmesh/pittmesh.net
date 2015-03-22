@@ -41,7 +41,8 @@ $(function(){
     }
   }
 
-  var script = document.createElement("script");
-  script.src = "/node-data/nodes.json";
-  document.getElementsByTagName("head")[0].appendChild(script);
+  $.ajax({
+    url: "http://metamesh-meshstats.herokuapp.com/nodes.json",
+    success: function(data) { onLoadMarkers(data['nodes']) }
+  });
 });
