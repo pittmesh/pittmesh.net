@@ -8,8 +8,8 @@ onLoadMarkers([
     "status": "live"
   },
   {
-    "lat":40.421025
-    "lon":-79.994101
+    "lat": 40.421025
+    "lon": -79.994101
     "name": "79 Allen st."
     "address": "79 Allen St., Pittsburgh, PA 15210"
     "hood": "Allentown",
