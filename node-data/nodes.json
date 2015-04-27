@@ -14,7 +14,7 @@ onLoadMarkers([
     "address": "79 Allen St., Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
-  }
+  },
   {
     "lat": 40.421535,
     "lon": -79.992927,
@@ -95,7 +95,7 @@ onLoadMarkers([
     "hood": "South Side Flats",
     "status": "live"
   },
-    {
+  {
     "lat": 40.421108,
     "lon": -79.992794,
     "name": "RE360",
