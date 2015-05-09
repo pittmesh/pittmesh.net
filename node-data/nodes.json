@@ -88,11 +88,11 @@ onLoadMarkers([
     "status": "live"
   },
   {
-    "lat": 40.425816,
-    "lon": -79.9761128,
-    "name": "The Brew House",
-    "address": "2100 Mary St",
-    "hood": "South Side Flats",
+    "lat": 40.4359199,
+    "lon": -79.9818112,
+    "name": "StartUptown at The Paramount Film Exchange",
+    "address": "544 Miltenberger St.",
+    "hood": "Uptown",
     "status": "live"
   },
   {
