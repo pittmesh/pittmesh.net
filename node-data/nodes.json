@@ -48,12 +48,12 @@ onLoadMarkers([
     "status": "live"
   },
   {
-    "lat": 40.42196294939257,
-    "lon": -79.99247029423714,
-    "name": "Pittsburgh Police",
-    "address": "835 E Warrington Ave, Pittsburgh, PA 15210",
+    "lat": 40.421432,
+    "lon": -79.994153,
+    "name": "The Hardware Store (rear)",
+    "address": "745 Manton Way, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.42146770067946,
