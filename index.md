@@ -12,5 +12,5 @@ introduction to PittMesh and mesh networking in general, please view our
 
 PittMesh currently has <span id="live">#</span> nodes hoisted. <span id="planned"> </span> Live connectivity data coming soon.
 
-Want to help us build the future of connectivity in Pittsburgh?
-[Contact us.](http://www.metamesh.org/contact.html)
+Want to help build the future of connectivity in Pittsburgh?
+[Contact Meta Mesh.](http://www.metamesh.org/contact.html)
