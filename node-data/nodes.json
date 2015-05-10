@@ -67,7 +67,7 @@ onLoadMarkers([
     "lat": 40.417765492763436,
     "lon": -79.98515456914902,
     "name": "1733 Arlington Ave, South Side Slopes",
-    "address": "1733 Arlington Ave",
+    "address": "1733 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "South Side Slopes",
     "status": "live"
   },
@@ -75,7 +75,7 @@ onLoadMarkers([
     "lat": 40.431743003452226,
     "lon": -79.95693370699883,
     "name": "3442 Frazier St, South Oakland",
-    "address": "3442 Frazier St",
+    "address": "3442 Frazier St, Pittsburgh, PA 15213",
     "hood": "South Oakland",
     "status": "live"
   },
@@ -83,7 +83,7 @@ onLoadMarkers([
     "lat": 40.437934569892626,
     "lon": -79.9780909717083,
     "name": "Hack Pittsburgh",
-    "address": "1936 5th Avenue",
+    "address": "1936 5th Avenue, Pittsburgh, PA 15219",
     "hood": "Uptown",
     "status": "live"
   },
@@ -91,7 +91,7 @@ onLoadMarkers([
     "lat": 40.4359199,
     "lon": -79.9818112,
     "name": "StartUptown at The Paramount Film Exchange",
-    "address": "544 Miltenberger St.",
+    "address": "544 Miltenberger St., Pittsburgh, PA 15219",
     "hood": "Uptown",
     "status": "live"
   },
