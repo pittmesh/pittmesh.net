@@ -1,8 +1,8 @@
 ---
 layout: front
-title: PittMesh | Pittsburgh Community Wireless
+title: PittMesh | Pittsburgh's Wireless Community Network
 ---
-# PittMesh is a community-owned wireless network in Pittsburgh, Pennsylvania.
+# PittMesh is a wireless community-owned network in Pittsburgh, Pennsylvania.
 
 PittMesh is a [wireless mesh network](https://en.wikipedia.org/wiki/Wireless_mesh_network)
 constructed by enthusiast volunteers and
