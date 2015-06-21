@@ -1,0 +1,9 @@
+!!!5
+%html
+  {% convert_include global_head.haml %}
+  %body
+    #container
+      %div.logo
+        %img{ src: 'images/pittmesh-flat.png', alt: 'PittMesh logo'}
+      #content.page
+        {{ content }}

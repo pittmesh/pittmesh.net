@@ -3,8 +3,8 @@
   {% convert_include global_head.haml %}
   %body
     #container
+      {% convert_include side_nav.haml %}
       %div{:id=>"map"}
-      -#{% convert_include global_nav.haml %}
       #content.page
         {{ content }}
       %footer
