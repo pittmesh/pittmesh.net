@@ -127,4 +127,12 @@ onLoadMarkers([
     "hood": "South Side",
     "status": "live"
   }
+  {
+    "lat": 40.395048,
+    "lon": -80.021332,
+    "name": "631 Brookline Blvd.",
+    "address": "631 Brookline Blvd., Pittsburgh, PA 15226",
+    "hood": "Brookline",
+    "status": "live"
+  },
 ]);
