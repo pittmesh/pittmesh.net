@@ -134,5 +134,13 @@ onLoadMarkers([
     "address": "631 Brookline Blvd., Pittsburgh, PA 15226",
     "hood": "Brookline",
     "status": "live"
+  },
+    {
+    "lat": 40.404438,
+    "lon": -79.870165,
+    "name": "Brew Gentlemen Brewery",
+    "address": "512 Braddock Ave, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
   }
 ]);
