@@ -1,7 +1,7 @@
 $(function(){
   var layer = new MM.StamenTileLayer("terrain");
   var map = new MM.Map("map", layer);
-  map.setCenterZoom(new MM.Location(40.4332259, -79.9879362), 13);
+  map.setCenterZoom(new MM.Location(40.4332259, -79.9779362), 12);
 
   markersLayer = new MM.MarkerLayer();
   map.addLayer(markersLayer);
