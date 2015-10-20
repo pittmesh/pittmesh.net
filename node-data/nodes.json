@@ -1,4 +1,5 @@
-onLoadMarkers([
+onLoadMarkers(
+[
   {
     "lat": 40.4217654,
     "lon": -79.99593829999998,
@@ -143,4 +144,5 @@ onLoadMarkers([
     "hood": "Braddock",
     "status": "live"
   }
-]);
+]
+);
