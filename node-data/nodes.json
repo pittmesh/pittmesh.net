@@ -143,6 +143,30 @@ onLoadMarkers(
     "address": "512 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
-  }
+  },
+    {
+    "lat": 40.394291,
+    "lon": -80.008284,
+    "name": "1415 Milan Ave",
+    "address": "1415 Milan Ave, Brookline, 15226",
+    "hood": "Brookline",
+    "status": "live"
+  },
+    {
+    "lat": 40.394356,
+    "lon": -80.004999,
+    "name": "1517 Milan Ave",
+    "address": "1517 Milan Ave, Brookline, 15226",
+    "hood": "Brookline",
+    "status": "live"
+  },
+    {
+    "lat": 40.404736,
+    "lon": -79.870861
+    "name": "The Free Store",
+    "address": "401-465 Braddock Ave",
+    "hood": "Braddock",
+    "status": "planned"
+  },
 ]
 );
