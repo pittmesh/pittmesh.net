@@ -167,6 +167,6 @@ onLoadMarkers(
     "address": "401-465 Braddock Ave",
     "hood": "Braddock",
     "status": "planned"
-  },
+  }
 ]
 );
