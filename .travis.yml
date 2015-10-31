@@ -15,3 +15,13 @@ addons:
 
 sudo: false
 cache: bundler
+
+notifications:
+  email:
+    - colin.dean@metamesh.org
+    - adam.longwill@metamesh.org
+  irc:
+    channels:
+      - "irc.freenode.net#pittmesh"
+    on_success: change
+    on_failure: change
