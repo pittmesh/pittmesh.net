@@ -162,7 +162,7 @@ onLoadMarkers(
   },
     {
     "lat": 40.404736,
-    "lon": -79.870861
+    "lon": -79.870861,
     "name": "The Free Store",
     "address": "401-465 Braddock Ave",
     "hood": "Braddock",
