@@ -1,5 +1,7 @@
-PittMesh.net
+PittMesh.net 
 ============
+
+[![Build Status](https://travis-ci.org/pittmesh/pittmesh.net.svg)](https://travis-ci.org/pittmesh/pittmesh.net)
 
 This is the code that powers [pittmesh.net](http://www.pittmesh.net).
 
