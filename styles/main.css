@@ -67,3 +67,19 @@ header {
   transform-style: preserve-3d;
   transform: rotate(270deg);
 }
+
+a.cands {
+  background-image: url("/images/codeandsupply-16.png");
+  padding-left: 17px;
+  background-repeat: no-repeat;
+}
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2){
+  a.cands {
+    background-image: url("/images/codeandsupply-32.png");
+    padding-left: 22px;
+    background-size: contain;
+  }
+}
