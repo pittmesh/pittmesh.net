@@ -166,7 +166,7 @@ onLoadMarkers(
     "name": "The Free Store",
     "address": "401-465 Braddock Ave",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   }
 ]
 );
