@@ -167,6 +167,14 @@ onLoadMarkers(
     "address": "401-465 Braddock Ave",
     "hood": "Braddock",
     "status": "live"
+  },
+    {
+    "lat": 40.423068,
+    "lon":  -79.998515,
+    "name": "anonymous",
+    "address": "Winton St. and Craighead St",
+    "hood": "Allentown",
+    "status": "live"
   }
 ]
 );
