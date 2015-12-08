@@ -175,6 +175,14 @@ onLoadMarkers(
     "address": "Winton St. and Craighead St",
     "hood": "Allentown",
     "status": "live"
+  },
+      {
+    "lat": 40.483098, 
+    "lon":  -80.016651,
+    "name": "Riverview Park site A",
+    "address": "57 Riverview Ave. ",
+    "hood": "Perry North",
+    "status": "live"
   }
 ]
 );
