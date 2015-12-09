@@ -39,7 +39,66 @@ $(function(){
   markersLayer = new MM.MarkerLayer();
   map.addLayer(markersLayer);
 
+  var nodes = [];
+
+  var findNodeByName = function(nodeName) {
+    return nodes.filter(function(node){
+      return node.name == nodeName
+    })[0]
+  }
+
+  window.onLoadLinks = function(links){
+    var canvas = document.createElement("canvas");
+    canvas.style.position = 'absolute';
+    canvas.style.left = '0';
+    canvas.style.top = '0';
+    canvas.width = map.dimensions.x;
+    canvas.height = map.dimensions.y;
+    map.parent.appendChild(canvas);
+
+    var linkLines = [];
+
+    for(var index in links) {
+      link = links[index];
+      var fromName = link.from;
+      var toName = link.to;
+      var fromNode = findNodeByName(fromName);
+      var toNode = findNodeByName(toName);
+
+      var fromLoc = new MM.Location(fromNode.lat, fromNode.lon);
+      var toLoc = new MM.Location(toNode.lat, toNode.lon);
+
+      linkLines.push(
+        [ MM.Location.interpolate(fromLoc, toLoc, 0),
+          MM.Location.interpolate(fromLoc, toLoc, 1) ]);
+    }
+
+    var redraw = function() {
+      var ctx = canvas.getContext('2d');
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.strokeStyle = '#18F5ED';
+      for(var index in linkLines){
+        linkLine = linkLines[index];
+        ctx.beginPath();
+        var p = map.locationPoint(linkLine[0]);
+        ctx.moveTo(p.x,p.y);
+        p = map.locationPoint(linkLine[1]);
+        ctx.lineTo(p.x,p.y);
+        ctx.stroke();
+      }
+    }
+
+    map.addCallback('drawn', redraw);
+    map.addCallback('resized', function() {
+      canvas.width = map.dimensions.x;
+      canvas.height = map.dimensions.y;
+      redraw();
+    });
+    redraw();
+  }
+
   window.onLoadMarkers = function(markers){
+    nodes = markers;
     var liveMarkers = 0;
     var plannedMarkers = 0;
     for (var index in markers) {
@@ -66,5 +125,8 @@ $(function(){
 
   var script = document.createElement("script");
   script.src = "/node-data/nodes.json";
+  document.getElementsByTagName("head")[0].appendChild(script);
+  var script = document.createElement("script");
+  script.src = "/node-data/links.json";
   document.getElementsByTagName("head")[0].appendChild(script);
 });
