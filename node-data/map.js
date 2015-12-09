@@ -76,7 +76,7 @@ $(function(){
     var redraw = function() {
       var ctx = canvas.getContext('2d');
       ctx.clearRect(0,0,canvas.width,canvas.height);
-      ctx.strokeStyle = '#18F5ED';
+      ctx.strokeStyle = '#F5188E';
       for(var index in linkLines){
         linkLine = linkLines[index];
         ctx.beginPath();
