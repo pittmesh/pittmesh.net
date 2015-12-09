@@ -1,11 +1,4 @@
 $(function(){
-  var layer = new MM.StamenTileLayer("terrain");
-  var map = new MM.Map("map", layer);
-  map.setCenterZoom(new MM.Location(40.4602259, -79.9779362), 12);
-
-  markersLayer = new MM.MarkerLayer();
-  map.addLayer(markersLayer);
-
   var buildMarkerPin = function(imageFile) {
     var img = document.createElement("img");
     img.setAttribute("src", imageFile);
@@ -13,12 +6,8 @@ $(function(){
     return img;
   }
 
-  var liveMarkerPin = function() {
-    return buildMarkerPin("/node-data/map-pin-live.svg");
-  }
-  var plannedMarkerPin = function() {
-    return buildMarkerPin("/node-data/map-pin-planned.svg");
-  }
+  var liveMarkerPin = function(){ return buildMarkerPin("/node-data/map-pin-live.svg");}
+  var plannedMarkerPin = function(){ return buildMarkerPin("/node-data/map-pin-planned.svg");}
 
   var pinImgFor = function(marker) {
     switch(marker.status){
@@ -42,6 +31,13 @@ $(function(){
 
     return { tag: tag, loc: loc }
   }
+
+  var layer = new MM.StamenTileLayer("terrain");
+  var map = new MM.Map("map", layer);
+  map.setCenterZoom(new MM.Location(40.4602259, -79.9779362), 12);
+
+  markersLayer = new MM.MarkerLayer();
+  map.addLayer(markersLayer);
 
   window.onLoadMarkers = function(markers){
     var liveMarkers = 0;
