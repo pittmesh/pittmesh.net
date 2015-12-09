@@ -9,3 +9,6 @@ bundle exec htmlproof ./_site
 
 # check format of nodes manifest - necessitates
 sed -e '2,$!d' -e '$d' ./node-data/nodes.json | jq . > /dev/null
+
+# check format of links manifest - necessitates
+sed -e '2,$!d' -e '$d' ./node-data/links.json | jq . > /dev/null
