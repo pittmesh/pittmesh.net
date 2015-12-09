@@ -1,4 +1,4 @@
-PittMesh.net 
+PittMesh.net
 ============
 
 [![Build Status](https://travis-ci.org/pittmesh/pittmesh.net.svg)](https://travis-ci.org/pittmesh/pittmesh.net)
@@ -18,6 +18,13 @@ from the [NATO phonetic
 alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) if you're
 unsure.
 
+To update the nodes, submit a pull request for your changes to
+`node-data/nodes.json`. The information there is pretty obvious.
+
+To update links, submit a pull request with your changes to
+`node-data/links.json`. The text to put in the field is the name field from
+`nodes.json`.
+
 Deploying
 ---------
 
@@ -33,7 +40,7 @@ Deployment workflow is as follows:
 License
 -------
 
-This software is (c) 2012-2014 Meta Mesh, LLC.
+This software is (c) 2012-2016 Meta Mesh, LLC.
 
 All original code is licensed under the terms of the Affero General Public License.
 
