@@ -6,6 +6,43 @@ $(function(){
   markersLayer = new MM.MarkerLayer();
   map.addLayer(markersLayer);
 
+  var buildMarkerPin = function(imageFile) {
+    var img = document.createElement("img");
+    img.setAttribute("src", imageFile);
+    img.setAttribute("alt", "map point");
+    return img;
+  }
+
+  var liveMarkerPin = function() {
+    return buildMarkerPin("/node-data/map-pin-live.svg");
+  }
+  var plannedMarkerPin = function() {
+    return buildMarkerPin("/node-data/map-pin-planned.svg");
+  }
+
+  var pinImgFor = function(marker) {
+    switch(marker.status){
+      case "live": return liveMarkerPin();
+      case "planned": return plannedMarkerPin();
+    }
+  }
+
+  var handleMarker = function(marker){
+    var loc = new MM.Location(marker.lat, marker.lon);
+
+    var tag = document.createElement("a");
+    tag.setAttribute("class","node");
+    var address = marker.address.length > 0 ? (" [" + marker.address + "]") : ""
+    tag.setAttribute("title", marker.name + address + " at " + loc);
+
+    var pinImg = pinImgFor(marker);
+    tag.appendChild(pinImg);
+
+    console.log("Adding marker ["+marker.name+":"+ marker.lat +","+ marker.lon + "] at " + loc + " with HTML " + tag);
+
+    return { tag: tag, loc: loc }
+  }
+
   window.onLoadMarkers = function(markers){
     var liveMarkers = 0;
     var plannedMarkers = 0;
@@ -14,25 +51,15 @@ $(function(){
 
       switch(marker.status){
           case "live":
-            var loc = new MM.Location(marker.lat, marker.lon);
-
-            var tag = document.createElement("a");
-            tag.setAttribute("class","node");
-            var address = marker.address.length > 0 ? (" [" + marker.address + "]") : ""
-            tag.setAttribute("title", marker.name + address + " at " + loc);
-
-            var img = tag.appendChild(document.createElement("img"));
-            img.setAttribute("src","/node-data/map_pin.png");
-            img.setAttribute("alt","map point");
-
-            console.log("Adding marker ["+marker.name+":"+ marker.lat +","+ marker.lon + "] at " + loc + " with HTML " + tag);
-            markersLayer.addMarker(tag, loc);
             liveMarkers++;
             break;
           case "planned":
             plannedMarkers++;
             break;
       }
+
+      var artifact = handleMarker(marker)
+      markersLayer.addMarker(artifact.tag, artifact.loc);
     }
     $("#live").text(liveMarkers);
 
