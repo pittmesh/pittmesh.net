@@ -1,4 +1,10 @@
 $(function(){
+  var loadJsonP = function(path) {
+    var script = document.createElement("script");
+    script.src = path;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
   var buildMarkerPin = function(imageFile) {
     var img = document.createElement("img");
     img.setAttribute("src", imageFile);
@@ -123,12 +129,10 @@ $(function(){
     if(plannedMarkers > 0) {
       $("#planned").text("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " planned for deployment.")
     }
+
+    loadJsonP("/node-data/links.json");
   }
 
-  var script = document.createElement("script");
-  script.src = "/node-data/nodes.json";
-  document.getElementsByTagName("head")[0].appendChild(script);
-  var script = document.createElement("script");
-  script.src = "/node-data/links.json";
-  document.getElementsByTagName("head")[0].appendChild(script);
+
+  loadJsonP("/node-data/nodes.json");
 });
