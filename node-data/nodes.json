@@ -8,6 +8,14 @@ onLoadMarkers(
     "hood": "Allentown",
     "status": "live"
   },
+    {
+    "lat": 40.401426,
+    "lon": -79.865015,
+    "name": "Nyia Page Community Center",
+    "address": "416 Library Street",
+    "hood": "Braddock",
+    "status": "planned"
+  },
   {
     "lat": 40.421025,
     "lon": -79.994101,
