@@ -68,6 +68,14 @@ header {
   transform: rotate(270deg);
 }
 
+header .link {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+header .link:last-child {
+  margin-right: 0;
+}
+
 a.cands {
   background-image: url("/images/codeandsupply-16.png");
   padding-left: 17px;
