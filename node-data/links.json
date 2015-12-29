@@ -6,7 +6,23 @@ onLoadLinks(
   },
   {
     "from":"1733 Arlington Ave, South Side Slopes",
-    "to":"Hack Pittsburgh"
-  }
+    "to":"3442 Frazier St, South Oakland"
+  },
+  {
+    "from":"StartUptown at The Paramount Film Exchange",
+    "to":"3442 Frazier St, South Oakland"
+  },
+  {
+    "from":"StartUptown at The Paramount Film Exchange",
+    "to":"3442 Frazier St, South Oakland"
+  },
+  {
+    "from":"Caliguiri Building",
+    "to":"1415 Milan Ave"
+  },
+  {
+    "from":"1415 Milan Ave",
+    "to":"1517 Milan Ave"
+  },
 ]
 );
