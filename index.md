@@ -10,7 +10,7 @@ guided under the auspices of [META MESH](http://www.metamesh.org). For a brief
 introduction to PittMesh and mesh networking in general, please view our
 [informational video](https://www.youtube.com/watch?v=OvAT7DTspaM).
 
-PittMesh currently has <span id="live">#</span> nodes hoisted. <span id="planned"> </span> Live connectivity data coming soon.
+PittMesh currently has <span id="live">#</span> nodes hoisted. <span id="planned"> </span> <span id="ptpLinks"> </span> Live connectivity data coming soon.
 
 Want to help build the future of connectivity in Pittsburgh?
 [Contact Meta Mesh.](http://www.metamesh.org/#!contact-meta-mesh/c24vq)

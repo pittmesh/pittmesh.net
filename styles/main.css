@@ -8,6 +8,10 @@
   font-family: Source Sans Pro;
 }
 
+#live {
+  font-weight: bold;
+}
+
 #content.page h1 {
   font-family: Iceland;
 }

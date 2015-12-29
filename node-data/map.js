@@ -63,6 +63,10 @@ $(function(){
     canvas.height = map.dimensions.y;
     map.parent.appendChild(canvas);
 
+    if(links.length > 0) {
+      $("#ptpLinks").text("There " + (links.length == 1 ? "is " : "are ") + links.length + " point-to-point links active.");
+    }
+
     var linkLines = [];
 
     for(var index in links) {
@@ -127,7 +131,7 @@ $(function(){
     $("#live").text(liveMarkers);
 
     if(plannedMarkers > 0) {
-      $("#planned").text("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " planned for deployment.")
+      $("#planned").text("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " nodes planned for deployment.");
     }
 
     loadJsonP("/node-data/links.json");
