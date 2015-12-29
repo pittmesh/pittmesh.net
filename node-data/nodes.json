@@ -25,14 +25,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.42183588884596,
-    "lon": -79.9955601990223,
-    "name": "701 E Warrington Ave, Allentown",
-    "address": "701 E Warrington Ave, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "planned"
-  },
-  {
     "lat": 40.42162363944305,
     "lon": -79.99721378087997,
     "name": "604 E Warrington Ave, Allentown",
@@ -62,7 +54,7 @@ onLoadMarkers(
     "name": "1210 Arlington Ave, Allentown",
     "address": "1210 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.417765492763436,
