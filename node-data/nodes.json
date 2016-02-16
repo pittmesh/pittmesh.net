@@ -169,6 +169,30 @@ onLoadMarkers(
     "status": "live"
   },
     {
+    "lat": 40.418099,
+    "lon":  -79.996358,
+    "name": "Orchard House",
+    "address": "412 Orchard Place",
+    "hood": "Allentown",
+    "status": "planned"
+  },
+    {
+    "lat": 40.428918,
+    "lon":  -79.984250,
+    "name": "Beehive Coffeehouse",
+    "address": "1327 East Carson Ave",
+    "hood": "South Side",
+    "status": "planned"
+  },
+   {
+    "lat": 40.480279,
+    "lon":  -80.011995,
+    "name": "Perrysville Ave",
+    "address": "3308 Perrysville Ave",
+    "hood": "Perry North",
+    "status": "planned"
+  },
+    {
     "lat": 40.423068,
     "lon":  -79.998515,
     "name": "anonymous",
