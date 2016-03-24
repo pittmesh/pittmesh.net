@@ -121,6 +121,14 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.421878,
+    "lon": -79.994377,
+    "name": "Primo Cutz",
+    "address": "741 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live"
+  },
+  {
     "lat": 40.427044,
     "lon": -79.982186,
     "name": "17th and Jane",
