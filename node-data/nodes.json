@@ -82,7 +82,7 @@ onLoadMarkers(
   },
   {
     "lat": 40.405658,
-    "lon": -79.872762
+    "lon": -79.872762,
     "name": "Ink Division",
     "address": "218 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
