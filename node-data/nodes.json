@@ -12,7 +12,87 @@ onLoadMarkers(
     "lat": 40.401426,
     "lon": -79.865015,
     "name": "Nyia Page Community Center",
-    "address": "416 Library Street",
+    "address": "416 Library Street, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.397978,
+    "lon": -79.861993,
+    "name": "Braddock Volunteer Fire Department 2",
+    "address": "1100 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.397860,
+    "lon": -79.861006,
+    "name": "UnSmoke Systems Artspace",
+    "address": "1137 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.399016,
+    "lon": -79.862898,
+    "name": "Braddock Farms",
+    "address": "1008 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.400585,
+    "lon": -79.864731,
+    "name": "Braddock Employment Training Center",
+    "address": "1008 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.401272,
+    "lon": -79.864968,
+    "name": "Braddock Redux",
+    "address": "1008 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.403251,
+    "lon": -79.868306,
+    "name": "Bell's Market",
+    "address": "603 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.403924,
+    "lon": -79.869629,
+    "name": "Hocky Brothers Auto Parts",
+    "address": "110 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.406155,
+    "lon": -79.873747,
+    "name": "Studebaker Metals",
+    "address": "534 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.405658,
+    "lon": -79.872762
+    "name": "Ink Division",
+    "address": "218 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "planned"
+  },
+  {
+    "lat": 40.403562,
+    "lon": -79.869099,
+    "name": "Stamboli's Poultry Market",
+    "address": "550 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "planned"
   },
