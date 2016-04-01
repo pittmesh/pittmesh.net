@@ -25,17 +25,13 @@ To update links, submit a pull request with your changes to
 `node-data/links.json`. The text to put in the field is the name field from
 `nodes.json`.
 
+**All additions must be submitted via pull request.**
+
 Deploying
 ---------
 
-We use Heroku for hosting. If you think you should have deploy access, file an
-issue.
-
-Deployment workflow is as follows:
-
-1. Deploy to pittmesh-net-staging
-2. Test changes on http://staging.pittmesh.net
-3. Use the pipeline to promote: `heroku pipeline:promote`
+We use Heroku for hosting. Heroku is configured to pull from master each time a branch is merged.
+`master` is a protected branch on this repository.
 
 License
 -------
