@@ -115,17 +115,17 @@ onLoadMarkers(
   {
     "lat": 40.416665,
     "lon": -79.986348,
-    "name": "Anonymous"
+    "name": "Anonymous",
     "address": "125 Locust Street, Mt Oliver, PA 15210",
-    "hood": "Mt. Oliver"
+    "hood": "Mt. Oliver",
     "status": "live"
   },
-    {
+  {
     "lat": 40.416747,
     "lon":  -79.986724,
-    "name": "Anonymous"
+    "name": "Anonymous",
     "address": "127 Brownsville Rd., Mt Oliver, PA 15210",
-    "hood": "Mt. Oliver"
+    "hood": "Mt. Oliver",
     "status": "live"
   },
   {
