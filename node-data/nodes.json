@@ -145,14 +145,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.421432,
-    "lon": -79.994153,
-    "name": "The Hardware Store (rear)",
-    "address": "745 Manton Way, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live"
-  },
-  {
     "lat": 40.42146770067946,
     "lon": -79.99228522181511,
     "name": "1210 Arlington Ave, Allentown",
