@@ -15,14 +15,6 @@ onLoadLinks(
   {
     "from":"StartUptown at The Paramount Film Exchange",
     "to":"3442 Frazier St, South Oakland"
-  },
-  {
-    "from":"Caliguiri Building",
-    "to":"1415 Milan Ave"
-  },
-  {
-    "from":"1415 Milan Ave",
-    "to":"1517 Milan Ave"
   }
 ]
 );
