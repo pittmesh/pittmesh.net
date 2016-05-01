@@ -19,10 +19,10 @@ onLoadMarkers(
   {
     "lat": 40.397978,
     "lon": -79.861993,
-    "name": "Braddock Volunteer Fire Department 2",
+    "name": "Braddock Fire Station 113",
     "address": "1100 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.397860,
@@ -61,7 +61,7 @@ onLoadMarkers(
     "lon": -79.868306,
     "name": "Bell's Market",
     "address": "603 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
+    "hood": "Braddock",g
     "status": "planned"
   },
   {
@@ -110,6 +110,22 @@ onLoadMarkers(
     "name": "Amsler's Pharmacy",
     "address": "818 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
+    "status": "live"
+  },
+  {
+    "lat": 40.416665,
+    "lon": -79.986348,
+    "name": "Anonymous"
+    "address": "125 Locust Street, Mt Oliver, PA 15210",
+    "hood": "Mt. Oliver"
+    "status": "live"
+  },
+    {
+    "lat": 40.416747,
+    "lon":  -79.986724,
+    "name": "Anonymous"
+    "address": "127 Brownsville Rd., Mt Oliver, PA 15210",
+    "hood": "Mt. Oliver"
     "status": "live"
   },
   {
