@@ -19,10 +19,10 @@ onLoadMarkers(
   {
     "lat": 40.397978,
     "lon": -79.861993,
-    "name": "Braddock Volunteer Fire Department 2",
+    "name": "Braddock Fire Station 113",
     "address": "1100 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.397860,
@@ -113,6 +113,22 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.416665,
+    "lon": -79.986348,
+    "name": "Anonymous",
+    "address": "125 Locust Street, Mt Oliver, PA 15210",
+    "hood": "Mt. Oliver",
+    "status": "live"
+  },
+  {
+    "lat": 40.416747,
+    "lon":  -79.986724,
+    "name": "Anonymous",
+    "address": "127 Brownsville Rd., Mt Oliver, PA 15210",
+    "hood": "Mt. Oliver",
+    "status": "live"
+  },
+  {
     "lat": 40.42162363944305,
     "lon": -79.99721378087997,
     "name": "604 Beltzhoover Ave, Allentown",
@@ -125,14 +141,6 @@ onLoadMarkers(
     "lon": -79.99411851167679,
     "name": "The Hardware Store",
     "address": "744 E Warrington Ave, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live"
-  },
-  {
-    "lat": 40.421432,
-    "lon": -79.994153,
-    "name": "The Hardware Store (rear)",
-    "address": "745 Manton Way, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
   },
