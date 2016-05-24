@@ -16,6 +16,14 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "planned"
   },
+    {
+    "lat": 40.479061,
+    "lon":  -79.973188,
+    "name": "Millvale Community Garden",
+    "address": "Butler St., Millvale, PA 15209",
+    "hood": "Millvale",
+    "status": "live"
+  },
   {
     "lat": 40.397978,
     "lon": -79.861993,
