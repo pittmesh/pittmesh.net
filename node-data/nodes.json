@@ -123,7 +123,7 @@ onLoadMarkers(
   {
     "lat": 40.416665,
     "lon": -79.986348,
-    "name": "Anonymous",
+    "name": "125 Locust Street, Mt Oliver, PA 15210",
     "address": "125 Locust Street, Mt Oliver, PA 15210",
     "hood": "Mt. Oliver",
     "status": "live"
@@ -131,7 +131,7 @@ onLoadMarkers(
   {
     "lat": 40.416747,
     "lon":  -79.986724,
-    "name": "Anonymous",
+    "name": "127 Brownsville Rd., Mt Oliver, PA 15210",
     "address": "127 Brownsville Rd., Mt Oliver, PA 15210",
     "hood": "Mt. Oliver",
     "status": "live"
@@ -275,8 +275,8 @@ onLoadMarkers(
     {
     "lat": 40.418099,
     "lon":  -79.996358,
-    "name": "Orchard House",
-    "address": "412 Orchard Place",
+    "name": "241 Orchard Place",
+    "address": "241 Orchard Place",
     "hood": "Allentown",
     "status": "live"
   },
@@ -299,7 +299,7 @@ onLoadMarkers(
     {
     "lat": 40.423068,
     "lon":  -79.998515,
-    "name": "anonymous",
+    "name": "Winton St. and Craighead St",
     "address": "Winton St. and Craighead St",
     "hood": "Allentown",
     "status": "live"
