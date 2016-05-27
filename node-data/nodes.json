@@ -24,6 +24,14 @@ onLoadMarkers(
     "hood": "Millvale",
     "status": "live"
   },
+      {
+    "lat": 40.403990,
+    "lon":  -79.869722,
+    "name": "Free Press Building",
+    "address": "528 Braddock Ave, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
   {
     "lat": 40.397978,
     "lon": -79.861993,
