@@ -17,6 +17,14 @@ onLoadMarkers(
     "status": "planned"
   },
     {
+    "lat": 40.421549,
+    "lon": -79.992598,
+    "name": "826 East Warrington Ave",
+    "address": "826 East Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live"
+  },
+    {
     "lat": 40.479061,
     "lon":  -79.973188,
     "name": "Millvale Community Garden",
