@@ -30,8 +30,8 @@ To update links, submit a pull request with your changes to
 Deploying
 ---------
 
-We use Heroku for hosting. Heroku is configured to pull from master each time a branch is merged.
-`master` is a protected branch on this repository.
+We use Heroku for hosting. Travis is configured to push to Heroku from master
+each time a branch is merged. `master` is a protected branch on this repository.
 
 License
 -------
