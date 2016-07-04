@@ -321,6 +321,14 @@ onLoadMarkers(
     "status": "live"
   },
       {
+    "lat": 40.427916,
+    "lon":  -79.972932,
+    "name": "97 South 23rd Street",
+    "address": "97 South 23rd Street",
+    "hood": "South Side",
+    "status": "live"
+  },
+      {
     "lat": 40.483098, 
     "lon":  -80.016651,
     "name": "Riverview Park site A",
