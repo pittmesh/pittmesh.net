@@ -16,6 +16,27 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "planned"
   },
+    "lat": 40.479296,
+    "lon": -79.974409,
+    "name": "Deco Resources",
+    "address": "10 Sedgwick St, Millvale, PA 15209",
+    "hood": "Millvale",
+    "status": "live"
+  },
+    "lat": 40.479371,
+    "lon": -79.973557,
+    "name": "Millvale Garden Repeater",
+    "address": "15 Buttler Street, Millvale, PA 15209",
+    "hood": "Millvale",
+    "status": "live"
+  },
+    "lat": 40.479018,
+    "lon":  -79.973155,
+    "name": "Millvale Gardens FishCam Repeater",
+    "address": "3 Hays Street, Millvale, PA 15209",
+    "hood": "Millvale",
+    "status": "live"
+  },
     {
     "lat": 40.421549,
     "lon": -79.992598,
@@ -104,13 +125,20 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "planned"
   },
+    "lat": 40.398129,
+    "lon": -79.859311,
+    "name": "Anonymous Node Host",
+    "address": "37 Wood Street, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
   {
     "lat": 40.405658,
     "lon": -79.872762,
     "name": "Ink Division",
     "address": "218 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.403562,
