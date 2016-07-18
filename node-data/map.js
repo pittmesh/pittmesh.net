@@ -71,20 +71,24 @@ $(function(){
     var linkLines = [];
 
     for(var index in links) {
-      link = links[index];
-      var fromName = link.from;
-      var toName = link.to;
-      var linkType = link.type;
-      var fromNode = findNodeByName(fromName);
-      var toNode = findNodeByName(toName);
+      var link = links[index];
+      try {
+        var fromName = link.from;
+        var toName = link.to;
+        var linkType = link.type;
+        var fromNode = findNodeByName(fromName);
+        var toNode = findNodeByName(toName);
 
-      var fromLoc = new MM.Location(fromNode.lat, fromNode.lon);
-      var toLoc = new MM.Location(toNode.lat, toNode.lon);
+        var fromLoc = new MM.Location(fromNode.lat, fromNode.lon);
+        var toLoc = new MM.Location(toNode.lat, toNode.lon);
 
-      linkLines.push(
-        [ MM.Location.interpolate(fromLoc, toLoc, 0),
-          MM.Location.interpolate(fromLoc, toLoc, 1),
-          link.type ]);
+        linkLines.push(
+          [ MM.Location.interpolate(fromLoc, toLoc, 0),
+            MM.Location.interpolate(fromLoc, toLoc, 1),
+            link.type ]);
+      } catch (err) {
+        console.log("Error while adding " + link.type + " link from " + link.from + " to " + link.to + " the map");
+      }
     }
 
     var redraw = function() {

@@ -23,7 +23,8 @@ To update the nodes, submit a pull request for your changes to
 
 To update links, submit a pull request with your changes to
 `node-data/links.json`. The text to put in the field is the name field from
-`nodes.json`.
+`nodes.json`. **If the names do not match exactly, the link will not show.**
+Check the browser console log for hints.
 
 **All additions must be submitted via pull request.**
 
