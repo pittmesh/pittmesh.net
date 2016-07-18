@@ -54,6 +54,7 @@ $(function(){
   }
 
   window.onLoadLinks = function(links){
+    var linkColors = {'wifi': '#f4181f', 'vpn': '#FFB90F'}
     var canvas = document.createElement("canvas");
     canvas.style.position = 'absolute';
     canvas.style.left = '0';
@@ -73,6 +74,7 @@ $(function(){
       link = links[index];
       var fromName = link.from;
       var toName = link.to;
+      var linkType = link.type;
       var fromNode = findNodeByName(fromName);
       var toNode = findNodeByName(toName);
 
@@ -81,16 +83,17 @@ $(function(){
 
       linkLines.push(
         [ MM.Location.interpolate(fromLoc, toLoc, 0),
-          MM.Location.interpolate(fromLoc, toLoc, 1) ]);
+          MM.Location.interpolate(fromLoc, toLoc, 1),
+          link.type ]);
     }
 
     var redraw = function() {
       var ctx = canvas.getContext('2d');
       ctx.clearRect(0,0,canvas.width,canvas.height);
-      ctx.strokeStyle = '#f4181f';
       ctx.lineWidth = 2;
       for(var index in linkLines){
         linkLine = linkLines[index];
+        ctx.strokeStyle = linkColors[linkLine[2]];
         ctx.beginPath();
         var p = map.locationPoint(linkLine[0]);
         ctx.moveTo(p.x,p.y);
