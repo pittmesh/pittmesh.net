@@ -34,17 +34,17 @@ onLoadLinks(
     "from":"StartUptown at The Paramount Film Exchange",
     "to":"3442 Frazier St, South Oakland",
     "type":"wifi"
-  }
+  },
   {
     "from":"The Hardware store",
     "to":"Hack Pittsburgh",
     "type":"vpn"
-  }
+  },
   {
     "from":"The Hardware store",
     "to":"Brew Gentalmen Brewery",
     "type":"vpn"
-  }  
+  },  
   {
     "from":"The Hardware store",
     "to":"Deco Resources",
