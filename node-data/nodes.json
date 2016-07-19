@@ -49,14 +49,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.479061,
-    "lon":  -79.973188,
-    "name": "Millvale Community Garden",
-    "address": "Butler St., Millvale, PA 15209",
-    "hood": "Millvale",
-    "status": "live"
-  },
-  {
     "lat": 40.403990,
     "lon":  -79.869722,
     "name": "Free Press Building",
