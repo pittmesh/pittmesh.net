@@ -24,6 +24,14 @@ onLoadMarkers(
     "hood": "Millvale",
     "status": "live"
   },
+    {
+    "lat": 40.398575,
+    "lon": -79.862365,
+    "name": "United Steelworkers Building",
+    "address": "1070 Braddock Ave, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
   {
     "lat": 40.479371,
     "lon": -79.973557,
