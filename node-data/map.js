@@ -54,6 +54,7 @@ $(function(){
   }
 
   window.onLoadLinks = function(links){
+    var linkColors = {'wifi': '#f4181f', 'vpn': '#FFB90F'}
     var canvas = document.createElement("canvas");
     canvas.style.position = 'absolute';
     canvas.style.left = '0';
@@ -70,27 +71,33 @@ $(function(){
     var linkLines = [];
 
     for(var index in links) {
-      link = links[index];
-      var fromName = link.from;
-      var toName = link.to;
-      var fromNode = findNodeByName(fromName);
-      var toNode = findNodeByName(toName);
+      var link = links[index];
+      try {
+        var fromName = link.from;
+        var toName = link.to;
+        var linkType = link.type;
+        var fromNode = findNodeByName(fromName);
+        var toNode = findNodeByName(toName);
 
-      var fromLoc = new MM.Location(fromNode.lat, fromNode.lon);
-      var toLoc = new MM.Location(toNode.lat, toNode.lon);
+        var fromLoc = new MM.Location(fromNode.lat, fromNode.lon);
+        var toLoc = new MM.Location(toNode.lat, toNode.lon);
 
-      linkLines.push(
-        [ MM.Location.interpolate(fromLoc, toLoc, 0),
-          MM.Location.interpolate(fromLoc, toLoc, 1) ]);
+        linkLines.push(
+          [ MM.Location.interpolate(fromLoc, toLoc, 0),
+            MM.Location.interpolate(fromLoc, toLoc, 1),
+            link.type ]);
+      } catch (err) {
+        console.log("Error while adding " + link.type + " link from " + link.from + " to " + link.to + " the map");
+      }
     }
 
     var redraw = function() {
       var ctx = canvas.getContext('2d');
       ctx.clearRect(0,0,canvas.width,canvas.height);
-      ctx.strokeStyle = '#f4181f';
       ctx.lineWidth = 2;
       for(var index in linkLines){
         linkLine = linkLines[index];
+        ctx.strokeStyle = linkColors[linkLine[2]];
         ctx.beginPath();
         var p = map.locationPoint(linkLine[0]);
         ctx.moveTo(p.x,p.y);
