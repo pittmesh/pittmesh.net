@@ -361,6 +361,167 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.445342,
+    "lon":  -79.976336,
+    "name": "Hill District Node 1",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.445871,
+    "lon":  -79.976933,
+    "name": "Hill District Node 2",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.445091,
+    "lon":  -79.976890,
+    "name": "Hill District Node 3",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444173,
+    "lon":  -79.976466,
+    "name": "Hill District Node 4",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444996,
+    "lon":  -79.977569,
+    "name": "Hill District Node 5",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.445421,
+    "lon":  -79.978148,
+    "name": "Hill District Node 6",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444784,
+    "lon":  -79.978116,
+    "name": "Hill District Node 7",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.443625,
+    "lon":  -79.977848,
+    "name": "Hill District Node 8",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444360,
+    "lon":  -79.978803,
+    "name": "Hill District Node 9",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444768,
+    "lon":  -79.979618,
+    "name": "Hill District Node 10",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.443992,
+    "lon":  -79.979479,
+    "name": "Hill District Node 11",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.442988,
+    "lon":  -79.979243,
+    "name": "Hill District Node 12",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.443649,
+    "lon":  -79.980412,
+    "name": "Hill District Node 13",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444049,
+    "lon":  -79.981206,
+    "name": "Hill District Node 14",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.443143,
+    "lon":  -79.981356,
+    "name": "Hill District Node 15",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.442196,
+    "lon":  -79.980959,
+    "name": "Hill District Node 16",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.443421,
+    "lon":  -79.982268,
+    "name": "Hill District Node 17",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.442604,
+    "lon":  -79.982515,
+    "name": "Hill District Node 18",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.441836,
+    "lon": -79.981968,
+    "name": "Hill District Node 19",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  {
+    "lat": 40.444555,
+    "lon":  -79.975777,
+    "name": "Hill District Node 20",
+    "address": "",
+    "hood": "Hill District",
+    "status": "planned"
+  },
+  
+  {
     "lat": 40.483098, 
     "lon":  -80.016651,
     "name": "Riverview Park site A",
