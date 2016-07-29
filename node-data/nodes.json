@@ -81,12 +81,20 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.399016,
-    "lon": -79.862898,
-    "name": "Braddock Farms",
+    "lat": 40.398922,
+    "lon": -79.862962,
+    "name": "Braddock Farms 2402",
     "address": "1008 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
+  },
+  {
+    "lat": 40.398973,
+    "lon": -79.863357,
+    "name": "Braddock Farms 2401",
+    "address": "1008 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
   },
   {
     "lat": 40.400585,
