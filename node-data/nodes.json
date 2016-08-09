@@ -17,6 +17,14 @@ onLoadMarkers(
     "status": "planned"
   },
   {
+    "lat": 40.446954,
+    "lon": -79.912112,
+    "name": "Wilkins 2401",
+    "address": "6739 Wilkins Ave, Pittsburgh, PA, 15217",
+    "hood": "Point Breeze",
+    "status": "live"
+  },
+  {
     "lat": 40.479296,
     "lon": -79.974409,
     "name": "Deco Resources",
