@@ -24,6 +24,14 @@ onLoadMarkers(
     "hood": "Point Breeze",
     "status": "live"
   },
+    {
+    "lat": 40.402926,
+    "lon": -79.868175
+    "name": "A Boss Opticians",
+    "address": "614 Braddock Ave, Braddock, PA, 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
   {
     "lat": 40.479296,
     "lon": -79.974409,
