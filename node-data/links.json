@@ -50,5 +50,10 @@ onLoadLinks(
     "to":"Deco Resources",
     "type":"vpn"
   }
+  {
+    "from":"The Hardware Store",
+    "to":"Brew Gentlemen Brewery",
+    "type":"vpn"
+  }
 ]
 );
