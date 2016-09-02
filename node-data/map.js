@@ -82,12 +82,14 @@ $(function(){
         var fromLoc = new MM.Location(fromNode.lat, fromNode.lon);
         var toLoc = new MM.Location(toNode.lat, toNode.lon);
 
+        console.log("Adding "+ link.type + " link from " + link.from + " to " + link.to + " on the map...");
+
         linkLines.push(
           [ MM.Location.interpolate(fromLoc, toLoc, 0),
             MM.Location.interpolate(fromLoc, toLoc, 1),
             link.type ]);
       } catch (err) {
-        console.log("Error while adding " + link.type + " link from " + link.from + " to " + link.to + " the map");
+        console.log("Error while adding " + link.type + " link from " + link.from + " to " + link.to + " on the map...");
       }
     }
 
