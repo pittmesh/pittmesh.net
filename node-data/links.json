@@ -40,6 +40,11 @@ onLoadLinks(
     "to":"Hack Pittsburgh",
     "type":"vpn"
   },
+    {
+    "from":"The Hardware Store",
+    "to":"StartUptown at The Paramount Film Exchange",
+    "type":"vpn"
+  },
   {
     "from":"The Hardware Store",
     "to":"United Steelworkers Building",
