@@ -449,12 +449,12 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.444360,
-    "lon":  -79.978803,
-    "name": "Hill District Node 9",
-    "address": "",
+    "lat": 40.443991,
+    "lon":  -79.979942,
+    "name": "Hill CDC",
+    "address": "2015 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.444768,
