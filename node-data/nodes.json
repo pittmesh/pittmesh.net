@@ -465,12 +465,12 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.443992,
-    "lon":  -79.979479,
-    "name": "Hill District Node 11",
-    "address": "",
+    "lat": 40.443818,
+    "lon":  -79.979867,
+    "name": "Gaudenzia Erie Inc",
+    "address": "2012 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.442988,
