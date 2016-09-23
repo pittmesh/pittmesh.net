@@ -304,6 +304,14 @@ onLoadMarkers(
     "hood": "South Side",
     "status": "live"
   },
+    {
+    "lat": 40.428720,
+    "lon": -79.977860,
+    "name": "South Side Comics",
+    "address": "1931 East Carson st, Pittsburgh, PA 15203",
+    "hood": "South Side",
+    "status": "live"
+  },
   {
     "lat": 40.395048,
     "lon": -80.021332,
