@@ -545,14 +545,13 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.444555,
-    "lon":  -79.975777,
-    "name": "Hill District Node 20",
-    "address": "",
+    "lat": 40.445591,
+    "lon":  -79.970507,
+    "name": "Power 59 LLC",
+    "address": "2503 Centre Ave",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
-  
   {
     "lat": 40.483098, 
     "lon":  -80.016651,
