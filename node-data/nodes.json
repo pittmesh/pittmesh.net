@@ -211,8 +211,8 @@ onLoadMarkers(
   {
     "lat": 40.42162363944305,
     "lon": -79.99721378087997,
-    "name": "604 Beltzhoover Ave, Allentown",
-    "address": "604 E Warrington Ave, Pittsburgh, PA 15210",
+    "name": "600 E Warrington Ave",
+    "address": "600 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
   },
