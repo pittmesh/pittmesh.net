@@ -425,12 +425,12 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.444996,
-    "lon":  -79.977569,
-    "name": "Hill District Node 5",
-    "address": "",
+    "lat": 40.446502,
+    "lon":  -79.968122,
+    "name": "Warren United Methodist",
+    "address": "2606 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.445421,
