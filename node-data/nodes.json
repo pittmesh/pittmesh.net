@@ -185,8 +185,8 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.421535,
-    "lon": -79.992927,
+    "lat": 40.421743,
+    "lon": -79.992906,
     "name": "Amsler's Pharmacy",
     "address": "818 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
