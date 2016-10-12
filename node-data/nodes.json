@@ -227,8 +227,8 @@ onLoadMarkers(
   {
     "lat": 40.42146770067946,
     "lon": -79.99228522181511,
-    "name": "1210 Arlington Ave, Allentown",
-    "address": "1210 Arlington Ave, Pittsburgh, PA 15210",
+    "name": "1206 Arlington Ave, Allentown",
+    "address": "1206 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
   },
