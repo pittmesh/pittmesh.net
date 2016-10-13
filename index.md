@@ -10,7 +10,7 @@ guided under the auspices of [META MESH](http://www.metamesh.org). For a brief
 introduction to PittMesh and mesh networking in general, please view our
 [informational video](https://www.youtube.com/watch?v=OvAT7DTspaM).
 
-PittMesh currently has <span id="live">#</span> live nodes hoisted (<img alt="Live nodes are red pins." src="/node-data/map-pin-live.svg" style="height: 1em"/>). <span id="planned"> </span> <span id="ptpLinks"> </span> Live connectivity data coming soon. Planned nodes in Braddock are currently hypothetical and may be moved, added, or subtracted based on conversations with prospective node hosts. If you want to be a node host in Braddock, contact us!
+PittMesh currently has <span id="live">#</span> live nodes hoisted (<img alt="Live nodes are red pins." src="/node-data/map-pin-live.svg" class="info-pin"/>). <span id="planned"> </span> <span id="ptpLinks"> </span> Live connectivity data coming soon. Planned nodes in Braddock are currently hypothetical and may be moved, added, or subtracted based on conversations with prospective node hosts. If you want to be a node host in Braddock, contact us!
 
 Want to help build the future of connectivity in Pittsburgh?
 [Contact Meta Mesh.](http://www.metamesh.org/#!contact-meta-mesh/c24vq)
