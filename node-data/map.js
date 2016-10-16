@@ -140,7 +140,8 @@ $(function(){
     $("#live").text(liveMarkers);
 
     if(plannedMarkers > 0) {
-      $("#planned").text("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " nodes planned for deployment.");
+      var plannedImg = '(<img alt="Planned nodes are yellow pins." src="/node-data/map-pin-planned.svg" class="info-pin"/>)';
+      $("#planned").html("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " nodes planned for deployment " + plannedImg + ".");
     }
 
     loadJsonP("/node-data/links.json");
