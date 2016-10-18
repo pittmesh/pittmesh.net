@@ -393,12 +393,12 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.445342,
-    "lon":  -79.976336,
-    "name": "Hill District Node 1",
-    "address": "",
+    "lat": 40.444466,
+    "lon":  -79.978812,
+    "name": "Molly's Market",
+    "address": "2101 Centre Ave",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.445871,
