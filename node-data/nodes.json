@@ -89,6 +89,14 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.512492,
+    "lon": -79.824518,
+    "name": "Penn Forest",
+    "address": "121 Colorado st., Verona, PA 15147",
+    "hood": "Verona",
+    "status": "live"
+  },
+  {
     "lat": 40.397860,
     "lon": -79.861006,
     "name": "UnSmoke Systems Artspace",
