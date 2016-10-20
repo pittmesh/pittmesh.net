@@ -54,6 +54,16 @@ onLoadLinks(
     "from":"The Hardware Store",
     "to":"Brew Gentlemen Brewery",
     "type":"vpn"
+  },
+    {
+    "from":"Penn Forest",
+    "to":"The Hardware Store",
+    "type":"vpn"
+  },
+  {
+    "from":"5000 Hobart",
+    "to":"The Hardware Store",
+    "type":"vpn"
   },  
   {
     "from":"The Hardware Store",
