@@ -97,11 +97,19 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.397860,
-    "lon": -79.861006,
-    "name": "UnSmoke Systems Artspace",
-    "address": "1137 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
+    "lat": 40.512492,
+    "lon": -79.824518,
+    "name": "Penn Forest",
+    "address": "121 Colorado st., Verona, PA 15147",
+    "hood": "Verona",
+    "status": "live"
+  },
+  {
+    "lat": 40.432635,
+    "lon": -79.927568,
+    "name": "5000 Hobart",
+    "address": "5000 Hobart st., Pittsburgh, PA 15217",
+    "hood": "Squirrel Hill",
     "status": "live"
   },
   {
