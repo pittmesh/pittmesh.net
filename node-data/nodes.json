@@ -65,14 +65,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.421549,
-    "lon": -79.992598,
-    "name": "826 East Warrington Ave",
-    "address": "826 East Warrington Ave, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live"
-  },
-  {
     "lat": 40.403990,
     "lon":  -79.869722,
     "name": "Free Press Building",
