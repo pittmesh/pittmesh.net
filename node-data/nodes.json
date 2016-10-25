@@ -417,12 +417,12 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.445091,
-    "lon":  -79.976890,
-    "name": "Hill District Node 3",
-    "address": "",
+    "lat": 40.443931,
+    "lon":  -79.978987,
+    "name": "Garland's Auto Repair",
+    "address": "2030 Centre Ave",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.444173,
