@@ -48,6 +48,14 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "live"
   },
+    {
+    "lat": 40.430472,
+    "lon": -79.985556,
+    "name": "Penguino Labs",
+    "address": "20-1/2 South 13th",
+    "hood": "South Side",
+    "status": "live"
+  },
   {
     "lat": 40.479371,
     "lon": -79.973557,
