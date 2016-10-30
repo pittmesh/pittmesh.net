@@ -7,11 +7,6 @@ onLoadLinks(
   },
   {
     "from":"Hack Pittsburgh",
-    "to":"3442 Frazier St, South Oakland",
-    "type":"wifi"
-  },
-    {
-    "from":"Hack Pittsburgh",
     "to":"97 South 23rd Street",
     "type":"wifi"
   },
@@ -22,17 +17,12 @@ onLoadLinks(
   },
   {
     "from":"1733 Arlington Ave, South Side Slopes",
-    "to":"3442 Frazier St, South Oakland",
+    "to":"Hack Pittsburgh",
     "type":"wifi"
   },
   {
     "from":"Caliguiri Building",
     "to":"1415 Milan Ave",
-    "type":"wifi"
-  },
-  {
-    "from":"StartUptown at The Paramount Film Exchange",
-    "to":"3442 Frazier St, South Oakland",
     "type":"wifi"
   },
   {
