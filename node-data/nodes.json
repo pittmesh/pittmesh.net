@@ -257,14 +257,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.431743003452226,
-    "lon": -79.95693370699883,
-    "name": "3442 Frazier St, South Oakland",
-    "address": "3442 Frazier St, Pittsburgh, PA 15213",
-    "hood": "South Oakland",
-    "status": "live"
-  },
-  {
     "lat": 40.437934569892626,
     "lon": -79.9780909717083,
     "name": "Hack Pittsburgh",
