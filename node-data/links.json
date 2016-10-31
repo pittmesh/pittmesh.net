@@ -26,37 +26,37 @@ onLoadLinks(
     "type":"wifi"
   },
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"Hack Pittsburgh",
     "type":"vpn"
   },
     {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"StartUptown at The Paramount Film Exchange",
     "type":"vpn"
   },
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"United Steelworkers Building",
     "type":"vpn"
   },
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"Brew Gentlemen Brewery",
     "type":"vpn"
   },
     {
     "from":"Penn Forest",
-    "to":"The Hardware Store",
+    "to":"WorkHardPGHe",
     "type":"vpn"
   },
   {
     "from":"5000 Hobart",
-    "to":"The Hardware Store",
+    "to":"WorkHardPGH",
     "type":"vpn"
   },  
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"Deco Resources",
     "type":"vpn"
   }
