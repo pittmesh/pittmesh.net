@@ -235,7 +235,7 @@ onLoadMarkers(
   {
     "lat": 40.42178246558993,
     "lon": -79.99411851167679,
-    "name": "The Hardware Store",
+    "name": "WorkHardPGH",
     "address": "744 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
