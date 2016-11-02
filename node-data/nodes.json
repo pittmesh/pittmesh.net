@@ -8,6 +8,14 @@ onLoadMarkers(
     "hood": "Allentown",
     "status": "live"
   },
+   {
+    "lat": 40.421875,
+    "lon": -79.993901,
+    "name": "AcademyPGH",
+    "address": "753 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live"
+  },
   {
     "lat": 40.401426,
     "lon": -79.865015,
