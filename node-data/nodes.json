@@ -161,6 +161,14 @@ onLoadMarkers(
     "status": "planned"
   },
   {
+    "lat": 40.397833,
+    "lon": -79.860981,
+    "name": "UnSmoke Systems Art Space",
+    "address": "1137 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
+  {
     "lat": 40.403924,
     "lon": -79.869629,
     "name": "Hocky Brothers Auto Parts",
