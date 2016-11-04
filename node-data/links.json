@@ -27,10 +27,35 @@ onLoadLinks(
   },
   {
     "from":"WorkHardPGH",
+    "to":"Riverview Park Site A",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
     "to":"Hack Pittsburgh",
     "type":"vpn"
   },
-    {
+   {
+    "from":"WorkHardPGH",
+    "to":"Warren United Methodist",
+    "type":"vpn"
+  },
+   {
+    "from":"WorkHardPGH",
+    "to":"Hill CDC",
+    "type":"vpn"
+  },
+     {
+    "from":"WorkHardPGH",
+    "to":"South Side Comics",
+    "type":"vpn"
+  },
+   {
+    "from":"WorkHardPGH",
+    "to":"Subfortress",
+    "type":"vpn"
+  },
+  {
     "from":"WorkHardPGH",
     "to":"StartUptown at The Paramount Film Exchange",
     "type":"vpn"
