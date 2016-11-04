@@ -275,7 +275,7 @@ onLoadMarkers(
   {
     "lat": 40.417765492763436,
     "lon": -79.98515456914902,
-    "name": "1733 Arlington Ave, South Side Slopes",
+    "name": "Subfortress",
     "address": "1733 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "South Side Slopes",
     "status": "live"
@@ -371,7 +371,7 @@ onLoadMarkers(
   {
     "lat": 40.394356,
     "lon": -80.004999,
-    "name": "1517 Milan Ave",
+    "name": "Crookline Data Center",
     "address": "1517 Milan Ave, Brookline, 15226",
     "hood": "Brookline",
     "status": "live"
