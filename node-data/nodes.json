@@ -25,6 +25,14 @@ onLoadMarkers(
     "status": "planned"
   },
   {
+    "lat": 40.444274,
+    "lon": -79.978849,
+    "name": "McDaniel Building",
+    "address": "2042 Centre Ave, Pittsburgh, PA, 15219",
+    "hood": "Hill District",
+    "status": "live"
+  },
+  {
     "lat": 40.446954,
     "lon": -79.912112,
     "name": "Wilkins 2401",
