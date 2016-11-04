@@ -75,6 +75,11 @@ onLoadLinks(
     "to":"WorkHardPGH",
     "type":"vpn"
   },
+   {
+    "from":"Crookline Data Center",
+    "to":"WorkHardPGH",
+    "type":"vpn"
+  },  
   {
     "from":"5000 Hobart",
     "to":"WorkHardPGH",
