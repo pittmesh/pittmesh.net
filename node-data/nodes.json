@@ -449,12 +449,12 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.444173,
-    "lon":  -79.976466,
-    "name": "Hill District Node 4",
-    "address": "",
+    "lat": 40.444325,
+    "lon":  -79.979147,
+    "name": "Black Beauty's Bar",
+    "address": "2037 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.446502,
