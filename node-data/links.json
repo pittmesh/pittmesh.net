@@ -7,11 +7,6 @@ onLoadLinks(
   },
   {
     "from":"Hack Pittsburgh",
-    "to":"3442 Frazier St, South Oakland",
-    "type":"wifi"
-  },
-    {
-    "from":"Hack Pittsburgh",
     "to":"97 South 23rd Street",
     "type":"wifi"
   },
@@ -22,7 +17,7 @@ onLoadLinks(
   },
   {
     "from":"1733 Arlington Ave, South Side Slopes",
-    "to":"3442 Frazier St, South Oakland",
+    "to":"Hack Pittsburgh",
     "type":"wifi"
   },
   {
@@ -31,32 +26,67 @@ onLoadLinks(
     "type":"wifi"
   },
   {
-    "from":"StartUptown at The Paramount Film Exchange",
-    "to":"3442 Frazier St, South Oakland",
-    "type":"wifi"
+    "from":"WorkHardPGH",
+    "to":"Riverview Park Site A",
+    "type":"vpn"
   },
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"Hack Pittsburgh",
     "type":"vpn"
   },
-    {
-    "from":"The Hardware Store",
+   {
+    "from":"WorkHardPGH",
+    "to":"Warren United Methodist",
+    "type":"vpn"
+  },
+   {
+    "from":"WorkHardPGH",
+    "to":"Hill CDC",
+    "type":"vpn"
+  },
+     {
+    "from":"WorkHardPGH",
+    "to":"South Side Comics",
+    "type":"vpn"
+  },
+   {
+    "from":"WorkHardPGH",
+    "to":"Subfortress",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
     "to":"StartUptown at The Paramount Film Exchange",
     "type":"vpn"
   },
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"United Steelworkers Building",
     "type":"vpn"
   },
   {
-    "from":"The Hardware Store",
+    "from":"WorkHardPGH",
     "to":"Brew Gentlemen Brewery",
+    "type":"vpn"
+  },
+    {
+    "from":"Penn Forest",
+    "to":"WorkHardPGH",
+    "type":"vpn"
+  },
+   {
+    "from":"Crookline Data Center",
+    "to":"WorkHardPGH",
     "type":"vpn"
   },  
   {
-    "from":"The Hardware Store",
+    "from":"5000 Hobart",
+    "to":"WorkHardPGH",
+    "type":"vpn"
+  },  
+  {
+    "from":"WorkHardPGH",
     "to":"Deco Resources",
     "type":"vpn"
   }

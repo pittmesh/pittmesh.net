@@ -95,3 +95,7 @@ only screen and (min-device-pixel-ratio: 2){
     background-size: contain;
   }
 }
+
+.info-pin {
+  height: 1em;
+}
