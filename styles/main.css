@@ -99,3 +99,7 @@ only screen and (min-device-pixel-ratio: 2){
 .info-pin {
   height: 1em;
 }
+
+.ptp-link {
+  border-bottom: 2px solid #fff;
+}

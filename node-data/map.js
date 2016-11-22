@@ -54,7 +54,8 @@ $(function(){
   }
 
   window.onLoadLinks = function(links){
-    var linkColors = {'wifi': '#f4181f', 'vpn': '#FFB90F'}
+    var linkColors = {'wifi': '#f4181f', 'vpn': '#FFB90F'};
+    var linkCounts = {'wifi': 0, 'vpn': 0 };
     var canvas = document.createElement("canvas");
     canvas.style.position = 'absolute';
     canvas.style.left = '0';
@@ -64,10 +65,6 @@ $(function(){
     canvas.height = map.dimensions.y;
     map.parent.appendChild(canvas);
 
-    if(links.length > 0) {
-      $("#ptpLinks").text("There " + (links.length == 1 ? "is " : "are ") + links.length + " point-to-point links active.");
-    }
-
     var linkLines = [];
 
     for(var index in links) {
@@ -76,6 +73,7 @@ $(function(){
         var fromName = link.from;
         var toName = link.to;
         var linkType = link.type;
+        linkCounts[linkType]++;
         var fromNode = findNodeByName(fromName);
         var toNode = findNodeByName(toName);
 
@@ -91,6 +89,14 @@ $(function(){
       } catch (err) {
         console.log("Error while adding " + link.type + " link from " + link.from + " to " + link.to + " on the map...");
       }
+    }
+
+    if(links.length > 0) {
+      $("#ptpLinks").html(
+        "There " + (links.length == 1 ? "is " : "are ") +
+        links.length + " point-to-point links active: " +
+        linkCounts.wifi + ' <span class="ptp-link wifi" style="border-color:'+linkColors.wifi+'">WiFi</span> and '+
+        linkCounts.vpn + ' <span class="ptp-link vpn" style="border-color:'+linkColors.vpn+'">VPN</span>.');
     }
 
     var redraw = function() {
