@@ -8,7 +8,7 @@ onLoadMarkers(
     "hood": "Allentown",
     "status": "live"
   },
-   {
+  {
     "lat": 40.421875,
     "lon": -79.993901,
     "name": "AcademyPGH",
@@ -23,6 +23,14 @@ onLoadMarkers(
     "address": "416 Library Street, Braddock, PA 15104",
     "hood": "Braddock",
     "status": "planned"
+  },
+  {
+    "lat": 40.403726,
+    "lon": -79.869668,
+    "name": "Studebaker Metals",
+    "address": "534 Braddock, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
   },
   {
     "lat": 40.444274,
