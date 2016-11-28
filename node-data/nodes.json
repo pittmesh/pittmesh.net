@@ -561,12 +561,12 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.443421,
-    "lon":  -79.982268,
-    "name": "Hill District Node 17",
-    "address": "",
+    "lat": 40.445296,
+    "lon": -79.973935,
+    "name": "MOKA Art Gallery",
+    "address": "502 Soho Street, Pitsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.442604,
