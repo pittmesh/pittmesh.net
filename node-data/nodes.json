@@ -56,6 +56,14 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "live"
   },
+    {
+    "lat": 40.452192,
+    "lon": -80.018727,
+    "name": "Calvary United Methodist Church",
+    "address": "954 Beech Ave, Pittsburgh, PA 15233",
+    "hood": "North Side",
+    "status": "live"
+  },
   {
     "lat": 40.479296,
     "lon": -79.974409,
