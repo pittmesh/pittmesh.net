@@ -26,13 +26,28 @@ onLoadLinks(
     "type":"wifi"
   },
   {
+    "from":"StartUptown at The Paramount Film Exchange",
+    "to":"Oporto and Gregory Street",
+    "type":"wifi"
+  },
+  {
     "from":"WorkHardPGH",
-    "to":"Riverview Park Site A",
+    "to":"Riverview Park site A",
     "type":"vpn"
   },
   {
     "from":"WorkHardPGH",
     "to":"Hack Pittsburgh",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
+    "to":"Calvary United Methodist Church",
+    "type":"vpn"
+  },
+    {
+    "from":"WorkHardPGH",
+    "to":"Winton St. and Craighead St",
     "type":"vpn"
   },
    {
