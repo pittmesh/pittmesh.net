@@ -17,6 +17,14 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.423906,
+    "lon": -79.979045,
+    "name": "Oporto and Gregory Street",
+    "address": "Gregory Street, Pittsburgh, PA 15213",
+    "hood": "South Side Slopes",
+    "status": "live"
+  },
+  {
     "lat": 40.401426,
     "lon": -79.865015,
     "name": "Nyia Page Community Center",
