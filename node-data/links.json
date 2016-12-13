@@ -25,6 +25,11 @@ onLoadLinks(
     "to":"1415 Milan Ave",
     "type":"wifi"
   },
+    {
+    "from":"Crookline Data Center",
+    "to":"1415 Milan Ave",
+    "type":"wifi"
+  },
   {
     "from":"StartUptown at The Paramount Film Exchange",
     "to":"Oporto and Gregory Street",
