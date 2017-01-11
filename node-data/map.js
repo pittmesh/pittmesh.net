@@ -42,7 +42,7 @@ $(function(){
   var map = new MM.Map("map", layer);
   map.setCenterZoom(new MM.Location(40.4602259, -79.9779362), 12);
 
-  markersLayer = new MM.MarkerLayer();
+  var markersLayer = new MM.MarkerLayer();
   map.addLayer(markersLayer);
 
   var nodes = [];
@@ -104,7 +104,7 @@ $(function(){
       ctx.clearRect(0,0,canvas.width,canvas.height);
       ctx.lineWidth = 2;
       for(var index in linkLines){
-        linkLine = linkLines[index];
+        var linkLine = linkLines[index];
         ctx.strokeStyle = linkColors[linkLine[2]];
         ctx.beginPath();
         var p = map.locationPoint(linkLine[0]);
@@ -129,7 +129,7 @@ $(function(){
     var liveMarkers = 0;
     var plannedMarkers = 0;
     for (var index in markers) {
-      marker = markers[index];
+      var marker = markers[index];
 
       switch(marker.status){
           case "live":
