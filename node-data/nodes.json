@@ -17,6 +17,14 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.423906,
+    "lon": -79.979045,
+    "name": "Oporto and Gregory Street",
+    "address": "Gregory Street, Pittsburgh, PA 15213",
+    "hood": "South Side Slopes",
+    "status": "live"
+  },
+  {
     "lat": 40.401426,
     "lon": -79.865015,
     "name": "Nyia Page Community Center",
@@ -54,6 +62,14 @@ onLoadMarkers(
     "name": "A Boss Opticians",
     "address": "614 Braddock Ave, Braddock, PA, 15104",
     "hood": "Braddock",
+    "status": "live"
+  },
+    {
+    "lat": 40.452192,
+    "lon": -80.018727,
+    "name": "Calvary United Methodist Church",
+    "address": "954 Beech Ave, Pittsburgh, PA 15233",
+    "hood": "North Side",
     "status": "live"
   },
   {
@@ -505,12 +521,12 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.444768,
-    "lon":  -79.979618,
-    "name": "Hill District Node 10",
-    "address": "",
+    "lat": 40.444092,
+    "lon":  -79.979709,
+    "name": "Hill District Federal Credit Union",
+    "address": "2021 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.443818,
@@ -561,12 +577,12 @@ onLoadMarkers(
     "status": "planned"
   },
   {
-    "lat": 40.443421,
-    "lon":  -79.982268,
-    "name": "Hill District Node 17",
-    "address": "",
+    "lat": 40.445296,
+    "lon": -79.973935,
+    "name": "MOKA Art Gallery",
+    "address": "502 Soho Street, Pitsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.442604,
