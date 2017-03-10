@@ -211,8 +211,8 @@ onLoadMarkers(
   {
     "lat": 40.406155,
     "lon": -79.873747,
-    "name": "Studebaker Metals",
-    "address": "534 Braddock Ave., Braddock, PA 15104",
+    "name": "Peppers N'at",
+    "address": "28 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "planned"
   },
