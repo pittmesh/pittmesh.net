@@ -185,12 +185,12 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.403251,
-    "lon": -79.868306,
+    "lat": 40.401804,
+    "lon": -79.866813,
     "name": "Bell's Market",
     "address": "603 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.397833,
@@ -203,16 +203,16 @@ onLoadMarkers(
   {
     "lat": 40.403924,
     "lon": -79.869629,
-    "name": "Hocky Brothers Auto Parts",
-    "address": "110 Braddock Ave., Braddock, PA 15104",
+    "name": "Braddock Bark Park",
+    "address": "717 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.406155,
     "lon": -79.873747,
-    "name": "Studebaker Metals",
-    "address": "534 Braddock Ave., Braddock, PA 15104",
+    "name": "Peppers N'at",
+    "address": "28 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "planned"
   },
@@ -341,14 +341,6 @@ onLoadMarkers(
     "lon": -79.993279,
     "name": "Caliguiri Building",
     "address": "803 East Warrington Avenue, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live"
-  },
-  {
-    "lat": 40.421878,
-    "lon": -79.994377,
-    "name": "Primo Cutz",
-    "address": "741 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
   },
