@@ -50,6 +50,11 @@ onLoadLinks(
     "to":"Calvary United Methodist Church",
     "type":"vpn"
   },
+  {
+    "from":"WorkHardPGH",
+    "to":"Bell's Market",
+    "type":"vpn"
+  },
     {
     "from":"WorkHardPGH",
     "to":"Winton St. and Craighead St",
