@@ -187,8 +187,8 @@ onLoadMarkers(
   {
     "lat": 40.401804,
     "lon": -79.866813,
-    "name": "Bell's Market",
-    "address": "603 Braddock Ave., Braddock, PA 15104",
+    "name": "Braddock Bark Park",
+    "address": "717 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
   },
@@ -201,10 +201,10 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.403924,
-    "lon": -79.869629,
-    "name": "Braddock Bark Park",
-    "address": "717 Braddock Ave., Braddock, PA 15104",
+    "lat": 40.403215,
+    "lon": -79.868299,
+    "name": "Bell's Market",
+    "address": "603 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
   },
@@ -231,14 +231,6 @@ onLoadMarkers(
     "address": "218 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
-  },
-  {
-    "lat": 40.403562,
-    "lon": -79.869099,
-    "name": "Stamboli's Poultry Market",
-    "address": "550 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
-    "status": "planned"
   },
   {
     "lat": 40.421025,
