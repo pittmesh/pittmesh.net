@@ -193,6 +193,14 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.402621,
+    "lon": -79.867468,
+    "name": "Golden Treasures",
+    "address": "709 Braddock Ave., Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
+  {
     "lat": 40.397833,
     "lon": -79.860981,
     "name": "UnSmoke Systems Art Space",
