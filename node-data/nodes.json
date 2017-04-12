@@ -169,12 +169,12 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.400585,
-    "lon": -79.864731,
+    "lat": 40.400654,
+    "lon": -79.864795
     "name": "Braddock Employment Training Center",
     "address": "1008 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "live"
   },
   {
     "lat": 40.399441,
