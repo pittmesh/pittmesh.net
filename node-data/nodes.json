@@ -425,14 +425,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.480279,
-    "lon":  -80.011995,
-    "name": "Perrysville Ave",
-    "address": "3308 Perrysville Ave",
-    "hood": "Perry North",
-    "status": "planned"
-  },
-  {
     "lat": 40.423068,
     "lon":  -79.998515,
     "name": "Winton St. and Craighead St",
