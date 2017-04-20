@@ -80,6 +80,14 @@ onLoadMarkers(
     "hood": "Millvale",
     "status": "live"
   },
+  {
+    "lat": 40.402181,
+    "lon": -79.867230,
+    "name": "Infamous Cutz",
+    "address": "704 Braddock Ave, Braddock, PA 15104",
+    "hood": "Braddock",
+    "status": "live"
+  },
     {
     "lat": 40.398575,
     "lon": -79.862365,
