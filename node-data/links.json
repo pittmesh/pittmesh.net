@@ -42,7 +42,27 @@ onLoadLinks(
   },
   {
     "from":"WorkHardPGH",
+    "to":"Infamous Cutz",
+    "type":"vpn"
+  },
+   {
+    "from":"WorkHardPGH",
+    "to":"Studebaker Metals",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
     "to":"Hack Pittsburgh",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
+    "to":"Ink Division",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
+    "to":"Peppers N'Aa",
     "type":"vpn"
   },
   {
