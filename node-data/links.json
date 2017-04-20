@@ -62,7 +62,12 @@ onLoadLinks(
   },
   {
     "from":"WorkHardPGH",
-    "to":"Peppers N'Aa",
+    "to":"Peppers N'at",
+    "type":"vpn"
+  },
+  {
+    "from":"WorkHardPGH",
+    "to":"631 Brookline Blvd.",
     "type":"vpn"
   },
   {
