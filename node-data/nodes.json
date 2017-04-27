@@ -16,6 +16,14 @@ onLoadMarkers(
     "hood": "Allentown",
     "status": "live"
   },
+    {
+    "lat": 40.4276111,
+    "lon": -79.9751609,
+    "name": "2301 Sarah",
+    "address": "2301 Sarah, Pittsburgh, PA 15203",
+    "hood": "South Side",
+    "status": "live"
+  },
   {
     "lat": 40.423906,
     "lon": -79.979045,
