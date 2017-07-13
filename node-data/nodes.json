@@ -16,6 +16,22 @@ onLoadMarkers(
     "hood": "Allentown",
     "status": "live"
   },
+  {
+    "lat": 40.442923,
+    "lon": -79.885073,
+    "name": "901 Wood Street 2402",
+    "address": "901 Wood Front",
+    "hood": "Wilkinsburg",
+    "status": "live"
+  },
+  {
+    "lat": 40.442785,
+    "lon": -79.884627,
+    "name": "901 Wood Street 2401",
+    "address": "901 Wood Rear",
+    "hood": "Wilkinsburg",
+    "status": "live"
+  },
     {
     "lat": 40.4276111,
     "lon": -79.9751609,
