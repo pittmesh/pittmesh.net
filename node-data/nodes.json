@@ -3,7 +3,7 @@ onLoadMarkers(
   {
     "lat": 40.4217654,
     "lon": -79.99593829999998,
-    "name": "Sweet Peaches",
+    "name": "Onion Maiden",
     "address": "639 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
@@ -14,14 +14,6 @@ onLoadMarkers(
     "name": "AcademyPGH",
     "address": "753 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
-  },
-  {
-    "lat": 40.442923,
-    "lon": -79.885073,
-    "name": "901 Wood Street 2402",
-    "address": "901 Wood Front",
-    "hood": "Wilkinsburg",
     "status": "live"
   },
   {
@@ -97,14 +89,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.479296,
-    "lon": -79.974409,
-    "name": "Deco Resources",
-    "address": "10 Sedgwick St, Millvale, PA 15209",
-    "hood": "Millvale",
-    "status": "live"
-  },
-  {
     "lat": 40.402181,
     "lon": -79.867230,
     "name": "Infamous Cutz",
@@ -129,43 +113,11 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.479371,
-    "lon": -79.973557,
-    "name": "Millvale Garden Repeater",
-    "address": "15 Buttler Street, Millvale, PA 15209",
-    "hood": "Millvale",
-    "status": "live"
-  },
-  {
-    "lat": 40.479018,
-    "lon":  -79.973155,
-    "name": "Millvale Gardens FishCam Repeater",
-    "address": "3 Hays Street, Millvale, PA 15209",
-    "hood": "Millvale",
-    "status": "live"
-  },
-  {
     "lat": 40.403990,
     "lon":  -79.869722,
     "name": "Free Press Building",
     "address": "528 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
-  },
-  {
-    "lat": 40.397978,
-    "lon": -79.861993,
-    "name": "Braddock Fire Station 113",
-    "address": "1100 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
-    "status": "live"
-  },
-  {
-    "lat": 40.512492,
-    "lon": -79.824518,
-    "name": "Penn Forest",
-    "address": "121 Colorado st., Verona, PA 15147",
-    "hood": "Verona",
     "status": "live"
   },
   {
@@ -185,17 +137,9 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.398922,
-    "lon": -79.862962,
-    "name": "Braddock Farms 2402",
-    "address": "1008 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
-    "status": "live"
-  },
-  {
     "lat": 40.398973,
     "lon": -79.863357,
-    "name": "Braddock Farms 2401",
+    "name": "Braddock Farms",
     "address": "1008 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
@@ -204,14 +148,6 @@ onLoadMarkers(
     "lat": 40.400654,
     "lon": -79.864795,
     "name": "Braddock Employment Training Center",
-    "address": "1008 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
-    "status": "live"
-  },
-  {
-    "lat": 40.399441,
-    "lon": -79.863514,
-    "name": "Braddock Farms 2403",
     "address": "1008 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
@@ -259,7 +195,7 @@ onLoadMarkers(
   {
     "lat": 40.398129,
     "lon": -79.859311,
-    "name": "Anonymous Node Host",
+    "name": "37 Wood Street",
     "address": "37 Wood Street, Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live"
@@ -283,7 +219,7 @@ onLoadMarkers(
   {
     "lat": 40.421743,
     "lon": -79.992906,
-    "name": "Amsler's Pharmacy",
+    "name": "Hilltop Pharmacy",
     "address": "818 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
@@ -323,7 +259,7 @@ onLoadMarkers(
   {
     "lat": 40.42146770067946,
     "lon": -79.99228522181511,
-    "name": "1206 Arlington Ave, Allentown",
+    "name": "1206 Arlington Ave",
     "address": "1206 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live"
@@ -339,7 +275,7 @@ onLoadMarkers(
   {
     "lat": 40.437934569892626,
     "lon": -79.9780909717083,
-    "name": "Hack Pittsburgh",
+    "name": "HackPGH",
     "address": "1936 5th Avenue, Pittsburgh, PA 15219",
     "hood": "Uptown",
     "status": "live"
@@ -347,7 +283,7 @@ onLoadMarkers(
   {
     "lat": 40.4359199,
     "lon": -79.9818112,
-    "name": "StartUptown at The Paramount Film Exchange",
+    "name": "Paramount Film Exchange",
     "address": "544 Miltenberger St., Pittsburgh, PA 15219",
     "hood": "Uptown",
     "status": "live"
@@ -361,27 +297,11 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.421773,
-    "lon": -79.995162,
-    "name": "Anonymous Node Host",
-    "address": "",
-    "hood": "Allentown",
-    "status": "live"
-  },
-  {
     "lat": 40.422169,
     "lon": -79.993279,
     "name": "Caliguiri Building",
     "address": "803 East Warrington Avenue, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
-  },
-  {
-    "lat": 40.427044,
-    "lon": -79.982186,
-    "name": "17th and Jane",
-    "address": "17th and Jane",
-    "hood": "South Side",
     "status": "live"
   },
     {
@@ -465,22 +385,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.444466,
-    "lon":  -79.978812,
-    "name": "Ike Wear",
-    "address": "2101 Centre Ave",
-    "hood": "Hill District",
-    "status": "live"
-  },
-  {
-    "lat": 40.445871,
-    "lon":  -79.976933,
-    "name": "Hill District Node 2",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
     "lat": 40.443931,
     "lon":  -79.978987,
     "name": "Garland's Auto Repair",
@@ -503,30 +407,6 @@ onLoadMarkers(
     "address": "2606 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
     "status": "live"
-  },
-  {
-    "lat": 40.445421,
-    "lon":  -79.978148,
-    "name": "Hill District Node 6",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.444784,
-    "lon":  -79.978116,
-    "name": "Hill District Node 7",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.443625,
-    "lon":  -79.977848,
-    "name": "Hill District Node 8",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
   },
   {
     "lat": 40.443991,
@@ -553,68 +433,12 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.442988,
-    "lon":  -79.979243,
-    "name": "Hill District Node 12",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.443649,
-    "lon":  -79.980412,
-    "name": "Hill District Node 13",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.444049,
-    "lon":  -79.981206,
-    "name": "Hill District Node 14",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.443143,
-    "lon":  -79.981356,
-    "name": "Hill District Node 15",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.442196,
-    "lon":  -79.980959,
-    "name": "Hill District Node 16",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
     "lat": 40.445296,
     "lon": -79.973935,
     "name": "MOKA Art Gallery",
     "address": "502 Soho Street, Pitsburgh, PA 15219",
     "hood": "Hill District",
     "status": "live"
-  },
-  {
-    "lat": 40.442604,
-    "lon":  -79.982515,
-    "name": "Hill District Node 18",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
-  },
-  {
-    "lat": 40.441836,
-    "lon": -79.981968,
-    "name": "Hill District Node 19",
-    "address": "",
-    "hood": "Hill District",
-    "status": "planned"
   },
   {
     "lat": 40.445591,
