@@ -224,6 +224,14 @@ onLoadMarkers(
     "hood": "Allentown",
     "status": "live"
   },
+    {
+    "lat": 40.479748,
+    "lon": -79.971535,
+    "name": "Moose Mode",
+    "address": "112 E Sherman, Millvale, PA 15209",
+    "hood": "Millvale",
+    "status": "live"
+  },
   {
     "lat": 40.416665,
     "lon": -79.986348,
