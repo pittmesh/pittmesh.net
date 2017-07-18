@@ -1,23 +1,13 @@
 onLoadLinks(
 [
   {
-    "from":"Hack Pittsburgh",
-    "to":"17th and Jane",
-    "type":"wifi"
-  },
-  {
-    "from":"Hack Pittsburgh",
+    "from":"HackPGH",
     "to":"97 South 23rd Street",
     "type":"wifi"
   },
   {
     "from":"1733 Arlington Ave, South Side Slopes",
     "to":"125 Locust Street, Mt Oliver, PA 15210",
-    "type":"wifi"
-  },
-  {
-    "from":"1733 Arlington Ave, South Side Slopes",
-    "to":"Hack Pittsburgh",
     "type":"wifi"
   },
   {
@@ -28,11 +18,6 @@ onLoadLinks(
     {
     "from":"Crookline Data Center",
     "to":"1415 Milan Ave",
-    "type":"wifi"
-  },
-  {
-    "from":"StartUptown at The Paramount Film Exchange",
-    "to":"Oporto and Gregory Street",
     "type":"wifi"
   },
   {
@@ -52,7 +37,7 @@ onLoadLinks(
   },
   {
     "from":"WorkHardPGH",
-    "to":"Hack Pittsburgh",
+    "to":"HackPGH",
     "type":"vpn"
   },
   {
@@ -107,7 +92,7 @@ onLoadLinks(
   },
   {
     "from":"WorkHardPGH",
-    "to":"StartUptown at The Paramount Film Exchange",
+    "to":"Paramount Film Exchange",
     "type":"vpn"
   },
   {
@@ -133,11 +118,6 @@ onLoadLinks(
   {
     "from":"5000 Hobart",
     "to":"WorkHardPGH",
-    "type":"vpn"
-  },  
-  {
-    "from":"WorkHardPGH",
-    "to":"Deco Resources",
     "type":"vpn"
   }
 ]
