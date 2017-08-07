@@ -17,6 +17,14 @@ onLoadMarkers(
     "status": "live"
   },
   {
+    "lat": 40.409928,
+    "lon": -80.024493,
+    "name": "Sorgatron Media",
+    "address": "1619 Broadway Ave, Pittsburgh, PA 15216",
+    "hood": "Beechview",
+    "status": "live"
+  },
+  {
     "lat": 40.442785,
     "lon": -79.884627,
     "name": "901 Wood Street 2401",
