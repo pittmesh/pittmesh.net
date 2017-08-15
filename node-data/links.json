@@ -20,6 +20,16 @@ onLoadLinks(
     "to":"1415 Milan Ave",
     "type":"wifi"
   },
+    {
+    "from":"WorkHardPGH",
+    "to":"Sorgatron Media",
+    "type":"vpn"
+  },
+    {
+    "from":"WorkHardPGH",
+    "to":"Superior Motors",
+    "type":"vpn"
+  },
   {
     "from":"WorkHardPGH",
     "to":"Riverview Park site A",
@@ -88,6 +98,21 @@ onLoadLinks(
    {
     "from":"WorkHardPGH",
     "to":"Subfortress",
+    "type":"vpn"
+  },
+     {
+    "from":"Subfortress",
+    "to":"125 Locust Street, Mt Oliver, PA 15210",
+    "type":"wifi"
+  },
+     {
+    "from":"WorkHardPGH",
+    "to":"901 Wood Street 2401",
+    "type":"vpn"
+  },
+     {
+    "from":"WorkHardPGH",
+    "to":"Moose Mode",
     "type":"vpn"
   },
   {
