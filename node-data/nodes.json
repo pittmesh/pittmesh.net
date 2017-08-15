@@ -295,7 +295,7 @@ onLoadMarkers(
     "address": "744 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
     "status": "live",
-    "device_count": "device_count": 3
+    "device_count": 3
   },
   {
     "lat": 40.42146770067946,
