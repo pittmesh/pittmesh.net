@@ -46,6 +46,7 @@ $(function(){
   map.addLayer(markersLayer);
 
   var nodes = [];
+  var device_count = 0;
 
   var findNodeByName = function(nodeName) {
     return nodes.filter(function(node){
@@ -134,12 +135,14 @@ $(function(){
       switch(marker.status){
           case "live":
             liveMarkers++;
+            device_count = device_count + marker.device_count;
+            $("#device_count").text(device_count);
             break;
           case "planned":
             plannedMarkers++;
             break;
       }
-
+      
       var artifact = handleMarker(marker)
       markersLayer.addMarker(artifact.tag, artifact.loc);
     }
