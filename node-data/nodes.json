@@ -6,7 +6,8 @@ onLoadMarkers(
     "name": "Onion Maiden",
     "address": "639 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.421875,
@@ -14,7 +15,8 @@ onLoadMarkers(
     "name": "AcademyPGH",
     "address": "753 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.409928,
@@ -22,7 +24,8 @@ onLoadMarkers(
     "name": "Sorgatron Media",
     "address": "1619 Broadway Ave, Pittsburgh, PA 15216",
     "hood": "Beechview",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.442785,
@@ -30,7 +33,8 @@ onLoadMarkers(
     "name": "901 Wood Street 2401",
     "address": "901 Wood Rear",
     "hood": "Wilkinsburg",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
     {
     "lat": 40.4276111,
@@ -38,7 +42,8 @@ onLoadMarkers(
     "name": "2301 Sarah",
     "address": "2301 Sarah, Pittsburgh, PA 15203",
     "hood": "South Side",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.423906,
@@ -46,7 +51,8 @@ onLoadMarkers(
     "name": "Oporto and Gregory Street",
     "address": "Gregory Street, Pittsburgh, PA 15213",
     "hood": "South Side Slopes",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.401426,
@@ -54,7 +60,8 @@ onLoadMarkers(
     "name": "Nyia Page Community Center",
     "address": "416 Library Street, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "planned"
+    "status": "planned",
+    "device_count": 0
   },
   {
     "lat": 40.403726,
@@ -62,7 +69,8 @@ onLoadMarkers(
     "name": "Studebaker Metals",
     "address": "534 Braddock, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.446954,
@@ -70,7 +78,8 @@ onLoadMarkers(
     "name": "Wilkins 2401",
     "address": "6739 Wilkins Ave, Pittsburgh, PA, 15217",
     "hood": "Point Breeze",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
     {
     "lat": 40.402926,
@@ -78,7 +87,8 @@ onLoadMarkers(
     "name": "A Boss Opticians",
     "address": "614 Braddock Ave, Braddock, PA, 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+     "device_count": 1
   },
     {
     "lat": 40.452192,
@@ -86,7 +96,8 @@ onLoadMarkers(
     "name": "Calvary United Methodist Church",
     "address": "954 Beech Ave, Pittsburgh, PA 15233",
     "hood": "North Side",
-    "status": "live"
+    "status": "live",
+    "device_count": 6
   },
   {
     "lat": 40.402181,
@@ -94,7 +105,8 @@ onLoadMarkers(
     "name": "Infamous Cutz",
     "address": "704 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
     {
     "lat": 40.398575,
@@ -102,7 +114,8 @@ onLoadMarkers(
     "name": "United Steelworkers Building",
     "address": "1070 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
     {
     "lat": 40.430472,
@@ -110,7 +123,8 @@ onLoadMarkers(
     "name": "Penguino Labs",
     "address": "20-1/2 South 13th",
     "hood": "South Side",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.403990,
@@ -118,7 +132,8 @@ onLoadMarkers(
     "name": "Free Press Building",
     "address": "528 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.512492,
@@ -126,7 +141,8 @@ onLoadMarkers(
     "name": "Penn Forest",
     "address": "121 Colorado st., Verona, PA 15147",
     "hood": "Verona",
-    "status": "live"
+    "status": "live",
+    "device_count":  2
   },
   {
     "lat": 40.432635,
@@ -134,7 +150,8 @@ onLoadMarkers(
     "name": "5000 Hobart",
     "address": "5000 Hobart st., Pittsburgh, PA 15217",
     "hood": "Squirrel Hill",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.398973,
@@ -142,7 +159,8 @@ onLoadMarkers(
     "name": "Braddock Farms",
     "address": "1008 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
   {
     "lat": 40.400654,
@@ -150,7 +168,8 @@ onLoadMarkers(
     "name": "Braddock Employment Training Center",
     "address": "1008 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.401804,
@@ -158,7 +177,8 @@ onLoadMarkers(
     "name": "Braddock Bark Park",
     "address": "717 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.402621,
@@ -166,7 +186,8 @@ onLoadMarkers(
     "name": "Golden Treasures",
     "address": "709 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.397833,
@@ -174,7 +195,8 @@ onLoadMarkers(
     "name": "UnSmoke Systems Art Space",
     "address": "1137 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.403215,
@@ -182,7 +204,8 @@ onLoadMarkers(
     "name": "Bell's Market",
     "address": "603 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.406155,
@@ -190,7 +213,8 @@ onLoadMarkers(
     "name": "Peppers N'at",
     "address": "28 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.398129,
@@ -198,7 +222,8 @@ onLoadMarkers(
     "name": "37 Wood Street",
     "address": "37 Wood Street, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.405658,
@@ -206,7 +231,8 @@ onLoadMarkers(
     "name": "Ink Division",
     "address": "218 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.421025,
@@ -214,7 +240,8 @@ onLoadMarkers(
     "name": "79 Allen st.",
     "address": "79 Allen St., Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.421743,
@@ -222,7 +249,8 @@ onLoadMarkers(
     "name": "Hilltop Pharmacy",
     "address": "818 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
     {
     "lat": 40.479748,
@@ -230,7 +258,8 @@ onLoadMarkers(
     "name": "Moose Mode",
     "address": "112 E Sherman, Millvale, PA 15209",
     "hood": "Millvale",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.416665,
@@ -238,7 +267,8 @@ onLoadMarkers(
     "name": "125 Locust Street, Mt Oliver, PA 15210",
     "address": "125 Locust Street, Mt Oliver, PA 15210",
     "hood": "Mt. Oliver",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.416747,
@@ -246,7 +276,8 @@ onLoadMarkers(
     "name": "127 Brownsville Rd., Mt Oliver, PA 15210",
     "address": "127 Brownsville Rd., Mt Oliver, PA 15210",
     "hood": "Mt. Oliver",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
   {
     "lat": 40.42162363944305,
@@ -254,7 +285,8 @@ onLoadMarkers(
     "name": "600 E Warrington Ave",
     "address": "600 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.42178246558993,
@@ -262,7 +294,8 @@ onLoadMarkers(
     "name": "WorkHardPGH",
     "address": "744 E Warrington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
   {
     "lat": 40.42146770067946,
@@ -270,7 +303,8 @@ onLoadMarkers(
     "name": "1206 Arlington Ave",
     "address": "1206 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.417765492763436,
@@ -278,7 +312,17 @@ onLoadMarkers(
     "name": "Subfortress",
     "address": "1733 Arlington Ave, Pittsburgh, PA 15210",
     "hood": "South Side Slopes",
-    "status": "live"
+    "status": "live",
+    "device_count": 5
+  },
+  {
+    "lat": 40.421876,
+    "lon": -79.9931352,
+    "name": "UniqueHome",
+    "address": "815 E Warrington Ave, Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.437934569892626,
@@ -286,7 +330,8 @@ onLoadMarkers(
     "name": "HackPGH",
     "address": "1936 5th Avenue, Pittsburgh, PA 15219",
     "hood": "Uptown",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
   {
     "lat": 40.4359199,
@@ -294,7 +339,8 @@ onLoadMarkers(
     "name": "Paramount Film Exchange",
     "address": "544 Miltenberger St., Pittsburgh, PA 15219",
     "hood": "Uptown",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
   {
     "lat": 40.421108,
@@ -302,7 +348,8 @@ onLoadMarkers(
     "name": "RE360",
     "address": "829 Industry Street, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.422169,
@@ -310,7 +357,8 @@ onLoadMarkers(
     "name": "Caliguiri Building",
     "address": "803 East Warrington Avenue, Pittsburgh, PA 15210",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
     {
     "lat": 40.428720,
@@ -318,7 +366,8 @@ onLoadMarkers(
     "name": "South Side Comics",
     "address": "1931 East Carson st, Pittsburgh, PA 15203",
     "hood": "South Side",
-    "status": "live"
+    "status": "live",
+     "device_count": 1 
   },
   {
     "lat": 40.395048,
@@ -326,7 +375,8 @@ onLoadMarkers(
     "name": "631 Brookline Blvd.",
     "address": "631 Brookline Blvd., Pittsburgh, PA 15226",
     "hood": "Brookline",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.404438,
@@ -334,7 +384,8 @@ onLoadMarkers(
     "name": "Brew Gentlemen Brewery",
     "address": "512 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.394291,
@@ -342,7 +393,8 @@ onLoadMarkers(
     "name": "1415 Milan Ave",
     "address": "1415 Milan Ave, Brookline, 15226",
     "hood": "Brookline",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.394356,
@@ -350,7 +402,8 @@ onLoadMarkers(
     "name": "Crookline Data Center",
     "address": "1517 Milan Ave, Brookline, 15226",
     "hood": "Brookline",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.404736,
@@ -358,7 +411,8 @@ onLoadMarkers(
     "name": "The Free Store",
     "address": "401-465 Braddock Ave",
     "hood": "Braddock",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.418099,
@@ -366,7 +420,8 @@ onLoadMarkers(
     "name": "421 Orchard Place",
     "address": "421 Orchard Place",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 3
   },
   {
     "lat": 40.428918,
@@ -374,7 +429,8 @@ onLoadMarkers(
     "name": "Beehive Coffeehouse",
     "address": "1327 East Carson Ave",
     "hood": "South Side",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.423068,
@@ -382,7 +438,8 @@ onLoadMarkers(
     "name": "Winton St. and Craighead St",
     "address": "Winton St. and Craighead St",
     "hood": "Allentown",
-    "status": "live"
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.427916,
@@ -390,7 +447,8 @@ onLoadMarkers(
     "name": "97 South 23rd Street",
     "address": "97 South 23rd Street",
     "hood": "South Side",
-    "status": "live"
+    "status": "live",
+    "device_count": 4
   },
   {
     "lat": 40.444325,
@@ -398,7 +456,8 @@ onLoadMarkers(
     "name": "Black Beauty's Bar",
     "address": "2037 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.446502,
@@ -406,7 +465,8 @@ onLoadMarkers(
     "name": "Warren United Methodist",
     "address": "2606 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.443991,
@@ -414,7 +474,8 @@ onLoadMarkers(
     "name": "Hill CDC",
     "address": "2015 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.444092,
@@ -422,7 +483,8 @@ onLoadMarkers(
     "name": "Hill District Federal Credit Union",
     "address": "2021 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.443818,
@@ -430,7 +492,8 @@ onLoadMarkers(
     "name": "Gaudenzia Erie Inc",
     "address": "2012 Centre Ave, Pittsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.445296,
@@ -438,7 +501,8 @@ onLoadMarkers(
     "name": "MOKA Art Gallery",
     "address": "502 Soho Street, Pitsburgh, PA 15219",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.445591,
@@ -446,7 +510,8 @@ onLoadMarkers(
     "name": "Power 59 LLC",
     "address": "2503 Centre Ave",
     "hood": "Hill District",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.483098, 
@@ -454,7 +519,8 @@ onLoadMarkers(
     "name": "Riverview Park site A",
     "address": "57 Riverview Ave. ",
     "hood": "Perry North",
-    "status": "live"
+    "status": "live",
+    "device_count": 1
   }
 ]
 );
