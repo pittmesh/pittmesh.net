@@ -144,6 +144,15 @@ onLoadMarkers(
     "status": "live",
     "device_count":  2
   },
+    {
+    "lat": 40.422404,
+    "lon": -79.994728,
+    "name": "Anonymous",
+    "address": "700 block Carnival Way., Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live",
+    "device_count":  1
+  },
   {
     "lat": 40.432635,
     "lon": -79.927568,
