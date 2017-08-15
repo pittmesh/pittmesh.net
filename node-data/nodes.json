@@ -65,14 +65,6 @@ onLoadMarkers(
     "status": "live"
   },
   {
-    "lat": 40.444274,
-    "lon": -79.978849,
-    "name": "McDaniel Building",
-    "address": "2042 Centre Ave, Pittsburgh, PA, 15219",
-    "hood": "Hill District",
-    "status": "live"
-  },
-  {
     "lat": 40.446954,
     "lon": -79.912112,
     "name": "Wilkins 2401",
@@ -398,14 +390,6 @@ onLoadMarkers(
     "name": "97 South 23rd Street",
     "address": "97 South 23rd Street",
     "hood": "South Side",
-    "status": "live"
-  },
-  {
-    "lat": 40.443931,
-    "lon":  -79.978987,
-    "name": "Garland's Auto Repair",
-    "address": "2030 Centre Ave",
-    "hood": "Hill District",
     "status": "live"
   },
   {
