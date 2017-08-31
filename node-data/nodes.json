@@ -18,6 +18,15 @@ onLoadMarkers(
     "status": "live",
     "device_count": 2
   },
+    {
+    "lat": 40.436666,
+    "lon": -79.926868,
+    "name": "Squirrel Hill 1",
+    "address": "5618 Darlington Rd., Pittsburgh, PA 15217",
+    "hood": "Squirrel Hill",
+    "status": "live",
+    "device_count": 1
+  },
   {
     "lat": 40.409928,
     "lon": -80.024493,
