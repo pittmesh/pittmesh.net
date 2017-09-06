@@ -34,10 +34,15 @@ Deploying
 We use Heroku for hosting. Travis is configured to push to Heroku from master
 each time a branch is merged. `master` is a protected branch on this repository.
 
+### Buildpacks
+
+    heroku/ruby
+    https://github.com/chrismytton/heroku-buildpack-jq.git
+
 License
 -------
 
-This software is (c) 2012-2016 Meta Mesh, LLC.
+This software is (c) 2012-2015 Meta Mesh, LLC. and 2016-2017 Meta Mesh Wireless Communities.
 
 All original code is licensed under the terms of the Affero General Public License.
 

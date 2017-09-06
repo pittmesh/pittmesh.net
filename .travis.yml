@@ -25,3 +25,5 @@ deploy:
   app: pittmesh-net
   api_key:
     secure: N5EE2AXgflG/0AvkX/DdBpZrapV57lfiTqtgwGHKip722nhvytoRzHjNr1+qKs/03A1YJnxmA6RcS7C5tCmgdLzTCfYBa3SdXaq/qUV7fimQxG6VC3Xum04Oc8T7+hY7lRGyg6oCNKVZ35G2Wk9i9vu/sqO4ePSmJFiG3vnOHKk=
+  run:
+    - ./_script/pittmesh_nodes_to_geojson.sh node-data/nodes.json > node-data/nodes.geojson
