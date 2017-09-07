@@ -8,6 +8,7 @@ gem 'jekyll-haml'
 gem 'haml-contrib'  #, :require => 'haml/filters/maruku'
 
 group :development do
+  gem 'pry'
   gem 'html-proofer'
   gem 'rake'
   gem 'mr_poole' #quick way to generate posts: poole post "Title" | editor
