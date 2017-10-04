@@ -46,6 +46,7 @@ $(function(){
   map.addLayer(markersLayer);
 
   var nodes = [];
+  var device_count = 0;
 
   var findNodeByName = function(nodeName) {
     return nodes.filter(function(node){
@@ -134,20 +135,22 @@ $(function(){
       switch(marker.status){
           case "live":
             liveMarkers++;
+            device_count = device_count + marker.device_count;
+            $("#device_count").text(device_count);
             break;
           case "planned":
             plannedMarkers++;
             break;
       }
-
+      
       var artifact = handleMarker(marker)
       markersLayer.addMarker(artifact.tag, artifact.loc);
     }
     $("#live").text(liveMarkers);
 
     if(plannedMarkers > 0) {
-      var plannedImg = '(<img alt="Planned nodes are yellow pins." src="/node-data/map-pin-planned.svg" class="info-pin"/>)';
-      $("#planned").html("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " nodes planned for deployment " + plannedImg + ".");
+      var plannedImg = '(<img alt="Planned sites are yellow pins." src="/node-data/map-pin-planned.svg" class="info-pin"/>)';
+      $("#planned").html("There " + (plannedMarkers == 1 ? "is " : "are ") + plannedMarkers + " sites planned for deployment " + plannedImg + ".");
     }
 
     loadJsonP("/node-data/links.json");
