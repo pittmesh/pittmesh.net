@@ -14,5 +14,3 @@ PittMesh currently has <span id="live">#</span> live sites (<img alt="Live sites
 
 Want to help build the future of connectivity in Pittsburgh?
 [Contact Meta Mesh.](http://www.metamesh.org/#!contact-meta-mesh/c24vq)
-
-<iframe src="https://grafana.metamesh.org/dashboard-solo/db/pittmesh?theme=light&amp;panelId=3" width="200" height="100" frameborder="0" style="opacity:0.6"></iframe>
