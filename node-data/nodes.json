@@ -63,14 +63,14 @@ onLoadMarkers(
     "status": "live",
     "device_count": 1
   },
-  {
-    "lat": 40.401426,
-    "lon": -79.865015,
-    "name": "Nyia Page Community Center",
-    "address": "416 Library Street, Braddock, PA 15104",
-    "hood": "Braddock",
-    "status": "planned",
-    "device_count": 0
+   {
+    "lat": 40.400014,
+    "lon": -80.039156,
+    "name": "Private Resident",
+    "address": "1731 Potomac Ave, Pittsburgh, PA 15216",
+    "hood": "Dormont",
+    "status": "live",
+    "device_count": 1
   },
   {
     "lat": 40.403726,
