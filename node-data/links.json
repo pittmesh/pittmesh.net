@@ -5,6 +5,11 @@ onLoadLinks(
     "to":"97 South 23rd Street",
     "type":"wifi"
   },
+   {
+    "from":"1731 Potomac Ave, Pittsburgh, PA 15216",
+    "to":"WorkHardPGH",
+    "type":"vpn"
+  },
   {
     "from":"1733 Arlington Ave, South Side Slopes",
     "to":"125 Locust Street, Mt Oliver, PA 15210",
