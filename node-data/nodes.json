@@ -27,6 +27,24 @@ onLoadMarkers(
     "status": "live",
     "device_count": 1
   },
+    {
+    "lat": 40.422350,
+    "lon": -79.991101,
+    "name": "ABC Storage Redirect",
+    "address": "1107 Arlington Ave, Pittsburgh, PA 15203",
+    "hood": "Allentown",
+    "status": "live",
+    "device_count": 3
+  },
+     {
+    "lat": 40.424137,
+    "lon": -79.992185,
+    "name": "McClain Street Redirect",
+    "address": "846 McClain St, Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live",
+    "device_count": 1
+  },
   {
     "lat": 40.409928,
     "lon": -80.024493,
