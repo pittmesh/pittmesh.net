@@ -5,6 +5,21 @@ onLoadLinks(
     "to":"97 South 23rd Street",
     "type":"wifi"
   },
+  {
+    "from":"Caliguiri Building",
+    "to":"Winton St. and Craighead St",
+    "type":"wifi"
+  },
+  {
+    "from":"ABC Storage Redirect",
+    "to":"97 South 23rd Street",
+    "type":"wifi"
+  },
+  {
+    "from":"HackPGH",
+    "to":"McClain Street Redirect",
+    "type":"wifi"
+  },
    {
     "from":"1731 Potomac Ave, Pittsburgh, PA 15216",
     "to":"WorkHardPGH",
