@@ -54,6 +54,15 @@ onLoadMarkers(
     "status": "live",
     "device_count": 1
   },
+    {
+    "lat": 40.399787,
+    "lon": -79.863610,
+    "name": "Verona Street Bus Stop",
+    "address": "913 Braddock Ave, 15104",
+    "hood": "Braddock",
+    "status": "live",
+    "device_count": 1
+  },
   {
     "lat": 40.423906,
     "lon": -79.979045,
