@@ -55,6 +55,33 @@ onLoadMarkers(
     "device_count": 1
   },
   {
+    "lat": 40.426829,
+    "lon": -79.970725,
+    "name": "Morse Gardens",
+    "address": "2416 Sarah St., Pittsburgh, PA 15203",
+    "hood": "South Side",
+    "status": "planned",
+    "device_count": 1
+  },
+  {
+    "lat": 40.434033,
+    "lon": -79.959901,
+    "name": "Finello Pavilion",
+    "address": "3206 Niagara St, Pittsburgh, PA, 15213",
+    "hood": "Oakland",
+    "status": "planned",
+    "device_count": 1
+  },  
+  {
+    "lat": 40.450606,
+    "lon": -79.975674,
+    "name": "Bedford Dwellings",
+    "address": "Pittsburgh, PA 15219",
+    "hood": "Hill District",
+    "status": "planned",
+    "device_count": 1
+  },
+  {
     "lat": 40.409928,
     "lon": -80.024493,
     "name": "Sorgatron Media",
