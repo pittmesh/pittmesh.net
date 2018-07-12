@@ -20,6 +20,26 @@ onLoadLinks(
     "to":"McClain Street Redirect",
     "type":"wifi"
   },
+  {
+    "from":"HackPGH",
+    "to":"Morse Gardens",
+    "type":"wifi"
+  },
+  {
+    "from":"HackPGH",
+    "to":"Finello Pavillion",
+    "type":"wifi"
+  },
+  {
+    "from":"Morse Gardens",
+    "to":"Finello Pavillion",
+    "type":"wifi"
+  },
+  {
+    "from":"WorkHardPGH",
+    "to":"High Hrothgar",
+    "type":"wifi"
+  },
    {
     "from":"1731 Potomac Ave, Pittsburgh, PA 15216",
     "to":"WorkHardPGH",
@@ -28,6 +48,11 @@ onLoadLinks(
   {
     "from":"1733 Arlington Ave, South Side Slopes",
     "to":"125 Locust Street, Mt Oliver, PA 15210",
+    "type":"wifi"
+  },
+   {
+    "from":"ABC Storage Redirect",
+    "to":"1206 Arlington Ave",
     "type":"wifi"
   },
   {
