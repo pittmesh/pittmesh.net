@@ -60,8 +60,8 @@ onLoadMarkers(
     "name": "Morse Gardens",
     "address": "2416 Sarah St., Pittsburgh, PA 15203",
     "hood": "South Side",
-    "status": "planned",
-    "device_count": 1
+    "status": "live",
+    "device_count": 2
   },
   {
     "lat": 40.434033,
@@ -69,9 +69,18 @@ onLoadMarkers(
     "name": "Finello Pavilion",
     "address": "3206 Niagara St, Pittsburgh, PA, 15213",
     "hood": "Oakland",
-    "status": "planned",
-    "device_count": 1
-  },  
+    "status": "live",
+    "device_count": 2
+  },
+   {
+    "lat": 40.420739,
+    "lon":  -79.993445,
+    "name": "High Hrothgar",
+    "address": "20 Allen St, Pittsburgh, PA, 15210",
+    "hood": "Allentown",
+    "status": "live",
+    "device_count": 2
+  },
   {
     "lat": 40.450606,
     "lon": -79.975674,
