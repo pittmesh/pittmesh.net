@@ -109,15 +109,6 @@ onLoadMarkers(
     "device_count": 2
   },
     {
-    "lat": 40.4276111,
-    "lon": -79.9751609,
-    "name": "2301 Sarah",
-    "address": "2301 Sarah, Pittsburgh, PA 15203",
-    "hood": "South Side",
-    "status": "live",
-    "device_count": 1
-  },
-    {
     "lat": 40.399787,
     "lon": -79.863610,
     "name": "Verona Street Bus Stop",
@@ -215,15 +206,6 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "live",
     "device_count": 1
-  },
-  {
-    "lat": 40.512492,
-    "lon": -79.824518,
-    "name": "Penn Forest",
-    "address": "121 Colorado st., Verona, PA 15147",
-    "hood": "Verona",
-    "status": "live",
-    "device_count":  2
   },
     {
     "lat": 40.422404,
@@ -359,15 +341,6 @@ onLoadMarkers(
     "hood": "Millvale",
     "status": "live",
     "device_count": 1
-  },
-  {
-    "lat": 40.416665,
-    "lon": -79.986348,
-    "name": "125 Locust Street, Mt Oliver, PA 15210",
-    "address": "125 Locust Street, Mt Oliver, PA 15210",
-    "hood": "Mt. Oliver",
-    "status": "live",
-    "device_count": 2
   },
   {
     "lat": 40.416747,
@@ -514,24 +487,6 @@ onLoadMarkers(
     "device_count": 1
   },
   {
-    "lat": 40.418099,
-    "lon":  -79.996358,
-    "name": "421 Orchard Place",
-    "address": "421 Orchard Place",
-    "hood": "Allentown",
-    "status": "live",
-    "device_count": 3
-  },
-  {
-    "lat": 40.428918,
-    "lon":  -79.984250,
-    "name": "Beehive Coffeehouse",
-    "address": "1327 East Carson Ave",
-    "hood": "South Side",
-    "status": "live",
-    "device_count": 2
-  },
-  {
     "lat": 40.423068,
     "lon":  -79.998515,
     "name": "Winton St. and Craighead St",
@@ -609,15 +564,6 @@ onLoadMarkers(
     "name": "Power 59 LLC",
     "address": "2503 Centre Ave",
     "hood": "Hill District",
-    "status": "live",
-    "device_count": 1
-  },
-  {
-    "lat": 40.483098, 
-    "lon":  -80.016651,
-    "name": "Riverview Park site A",
-    "address": "57 Riverview Ave. ",
-    "hood": "Perry North",
     "status": "live",
     "device_count": 1
   }
