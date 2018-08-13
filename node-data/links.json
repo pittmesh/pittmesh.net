@@ -16,6 +16,26 @@ onLoadLinks(
     "type":"wifi"
   },
   {
+    "from":"Paramount Film Exchange",
+    "to":"Penguino Labs",
+    "type":"wifi"
+  },
+  {
+    "from":"HackPGH",
+    "to":"Finello Pavillion",
+    "type":"wifi"
+  },
+  {
+    "from":"HackPGH",
+    "to":"Morse Gardens",
+    "type":"wifi"
+  },
+  {
+    "from":"Morse Gardens",
+    "to":"Finello Pavillion",
+    "type":"wifi"
+  },
+  {
     "from":"HackPGH",
     "to":"McClain Street Redirect",
     "type":"wifi"
