@@ -22,7 +22,7 @@ onLoadLinks(
   },
   {
     "from":"HackPGH",
-    "to":"Finello Pavillion",
+    "to":"Finello Pavilion",
     "type":"wifi"
   },
   {
@@ -32,7 +32,7 @@ onLoadLinks(
   },
   {
     "from":"Morse Gardens",
-    "to":"Finello Pavillion",
+    "to":"Finello Pavilion",
     "type":"wifi"
   },
   {
