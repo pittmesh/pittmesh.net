@@ -11,6 +11,16 @@ onLoadLinks(
     "type":"wifi"
   },
   {
+    "from":"HackPGH",
+    "to":"Polska Szkola",
+    "type":"wifi"
+  },
+    {
+    "from":"Paramount Film Exchange",
+    "to":"Polska Szkola",
+    "type":"wifi"
+  },
+  {
     "from":"ABC Storage Redirect",
     "to":"97 South 23rd Street",
     "type":"wifi"
