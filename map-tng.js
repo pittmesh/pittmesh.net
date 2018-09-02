@@ -62,6 +62,25 @@ function determineColorForFeature(feature) {
       };
   }
 }
+
+function determineColorForMarker(feature, latlng) {
+  var colorJson = determineColorForFeature(feature)
+  return L.circleMarker(latlng, extend(Pittmesh.baseNodeMarkerOptions,
+    colorJson));
+}
+
+function attachPopup(feature, layer) {
+  if (feature.properties && feature.properties.address) {
+    var popupContent = "<b>Address:</b> " + feature.properties.address +
+      "<br/>" +
+      "<b>Neighborhood:</b> " + feature.properties.hood + "<br/>" +
+      "<b>Device Count:</b> " + feature.properties.device_count + "<br/>"
+    layer.bindPopup(popupContent, {
+      className: "node node-" + feature.properties.status
+    });
+  }
+}
+
 // https://plainjs.com/javascript/utilities/merge-two-javascript-objects-19/
 function extend(obj, src) {
   Object.keys(src).forEach(function(key) {
@@ -78,13 +97,10 @@ function loadGeoJson(map) {
     .then(function(json) {
       L.geoJSON(json, {
         // for lines
-        style: determineColorForFeature,
+        // style: determineColorForFeature,
         // for points
-        pointToLayer: function(feature, latlng) {
-          var colorJson = determineColorForFeature(feature)
-          return L.circleMarker(latlng, extend(Pittmesh.baseNodeMarkerOptions,
-            colorJson));
-        }
+        pointToLayer: determineColorForMarker,
+        onEachFeature: attachPopup,
       }).addTo(map);
       console.log(JSON.stringify(json));
     }).then(function() {

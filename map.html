@@ -21,6 +21,28 @@
     right: 0;
     z-index: 0;
   }
+  div.leaflet-popup.node .leaflet-popup-content-wrapper:before {
+    font-variant-caps: small-caps;
+    padding-left: 0.7em;
+  }
+  div.leaflet-popup.node.node-planned .leaflet-popup-content-wrapper {
+    border: 2px solid #F57F18;
+  }
+  div.leaflet-popup.node.node-planned .leaflet-popup-content-wrapper:before {
+    content: "planned node";
+  }
+  div.leaflet-popup.node.node-live .leaflet-popup-content-wrapper {
+    border: 2px solid #08a400;
+  }
+  div.leaflet-popup.node.node-live .leaflet-popup-content-wrapper:before {
+    content: "live node";
+  }
+  div.leaflet-popup.node.node-vpn .leaflet-popup-content-wrapper {
+    border: 2px solid #0080ff;
+  }
+  div.leaflet-popup.node.node-vpn .leaflet-popup-content-wrapper:before {
+    content: "vpn node";
+  }
   </style>
 </head>
    <body>
