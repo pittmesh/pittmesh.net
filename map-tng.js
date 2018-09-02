@@ -1,8 +1,10 @@
 // CONFIGURATION
 var Pittmesh = {
   // TWEAKABLES
-  mapCenter: [40.4602259, -79.9779362], // slightly north of downtown, enought to have a paragraph above it
-  mapHeight: 12, // enough to show eastern side of airport to west side of murraysville
+  map: {
+    center: [40.4602259, -79.9779362], // slightly north of downtown, enought to have a paragraph above it
+    height: 12, // enough to show eastern side of airport to west side of murraysville
+  },
 
   colors: {
     markers: {
@@ -36,9 +38,9 @@ function setupMap() {
 
   var tileLayer = new L.StamenTileLayer("terrain");
   map.addLayer(tileLayer);
-  map.setView(Pittmesh.mapCenter, Pittmesh.mapHeight);
+  map.setView(Pittmesh.map.center, Pittmesh.map.height);
 
-  loadGeoJson(map);
+  return Promise.resolve(map);
 }
 
 function determineColorForFeature(feature) {
@@ -85,8 +87,15 @@ function loadGeoJson(map) {
         }
       }).addTo(map);
       console.log(JSON.stringify(json));
+    }).then(function() {
+      return map
     });
 }
 
+function loadIt() {
+  setupMap()
+    .then(loadGeoJson)
+}
 
-window.addEventListener('load', setupMap, false);
+
+window.addEventListener('load', loadIt, false);
