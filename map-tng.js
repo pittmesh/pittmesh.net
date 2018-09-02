@@ -26,6 +26,9 @@ var Pittmesh = {
     opacity: 1,
     fillOpacity: 0.9
   },
+
+  loadedNodes: {},
+  mapObject: null,
 }
 
 function setupMap() {
@@ -69,16 +72,34 @@ function determineColorForMarker(feature, latlng) {
     colorJson));
 }
 
-function attachPopup(feature, layer) {
+function attachPopup(featureAndLayer) {
+  var feature = featureAndLayer.feature;
   if (feature.properties && feature.properties.address) {
-    var popupContent = "<b>Address:</b> " + feature.properties.address +
-      "<br/>" +
+    var popupContent =
+      "<b>Name:</b> " + feature.properties.name + "<br/>" +
+      "<b>Address:</b> " + feature.properties.address + "<br/>" +
       "<b>Neighborhood:</b> " + feature.properties.hood + "<br/>" +
       "<b>Device Count:</b> " + feature.properties.device_count + "<br/>"
-    layer.bindPopup(popupContent, {
+    featureAndLayer.layer.bindPopup(popupContent, {
       className: "node node-" + feature.properties.status
     });
   }
+  return featureAndLayer;
+}
+
+function recordNode(featureAndLayer) {
+  var feature = featureAndLayer.feature;
+  Pittmesh.loadedNodes[feature.id] = feature;
+  return featureAndLayer;
+}
+
+function setupNodeFeature(feature, layer) {
+  return Promise.resolve({
+      feature: feature,
+      layer: layer
+    })
+    .then(attachPopup)
+    .then(recordNode);
 }
 
 // https://plainjs.com/javascript/utilities/merge-two-javascript-objects-19/
@@ -89,8 +110,33 @@ function extend(obj, src) {
   return obj;
 }
 
-function loadGeoJson(map) {
-  fetch("nodes.geojson")
+function putLinkOnMap(item, map) {
+  var from = Pittmesh.loadedNodes[item.from];
+  if (from == undefined) {
+    console.log("Cannot find 'from' endpoint [" + item.from + "] for " + JSON.stringify(
+      item))
+    return;
+  }
+  var to = Pittmesh.loadedNodes[item.to];
+  if (to == undefined) {
+    console.log("Cannot find 'to' endpoint [" + item.to + "] for " + JSON.stringify(
+      item))
+    return;
+  }
+  var line = [
+    new L.latLng(from.geometry.coordinates),
+    new L.latLng(to.geometry.coordinates)
+  ];
+  console.log("Drawing line " + line);
+  var polyline = L.polyline(line, {
+      color: '#000'
+    })
+    .addTo(map);
+  map.fitBounds(polyline.getBounds());
+}
+
+function loadNodes(map) {
+  return fetch("nodes.geojson")
     .then(function(resp) {
       return resp.json();
     })
@@ -100,17 +146,37 @@ function loadGeoJson(map) {
         // style: determineColorForFeature,
         // for points
         pointToLayer: determineColorForMarker,
-        onEachFeature: attachPopup,
+        onEachFeature: setupNodeFeature,
       }).addTo(map);
       console.log(JSON.stringify(json));
     }).then(function() {
-      return map
+      return map;
     });
+}
+
+function loadLinks(map) {
+  return fetch("node-data/links.json")
+    .then(function(resp) {
+      return resp.json();
+    })
+    .then(function(json) {
+      json.forEach(function(item, index, array) {
+        putLinkOnMap(item, map);
+      });
+    }).then(function() {
+      return map;
+    });
+}
+
+function persistMap(map) {
+  Pittmesh.mapObject = map
 }
 
 function loadIt() {
   setupMap()
-    .then(loadGeoJson)
+    .then(loadNodes)
+    .then(loadLinks)
+    .then(persistMap)
 }
 
 
