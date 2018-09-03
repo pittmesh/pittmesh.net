@@ -78,7 +78,7 @@ function attachPopup(featureAndLayer) {
   var feature = featureAndLayer.feature;
   if (feature.properties && feature.properties.address) {
     var popupContent =
-      "<b>Name:</b> " + feature.properties.name + "<br/>" +
+      "<b>Name:</b> " + feature.id + "<br/>" +
       "<b>Address:</b> " + feature.properties.address + "<br/>" +
       "<b>Neighborhood:</b> " + feature.properties.hood + "<br/>" +
       "<b>Device Count:</b> " + feature.properties.device_count + "<br/>"
@@ -95,13 +95,29 @@ function recordNode(featureAndLayer) {
   return featureAndLayer;
 }
 
+function updateCounter(featureAndLayer) {
+  var keys = Object.keys(Pittmesh.loadedNodes);
+  document.getElementById('live').innerText = keys.length;
+  document.getElementById('device_count').innerText = keys
+    .map(function(key, index) {
+      return Pittmesh.loadedNodes[key].properties.device_count;
+    })
+    .reduce(function(result, count) {
+      result += count;
+      return result;
+    });
+
+  return featureAndLayer;
+}
+
 function setupNodeFeature(feature, layer) {
   return Promise.resolve({
       feature: feature,
       layer: layer
     })
     .then(attachPopup)
-    .then(recordNode);
+    .then(recordNode)
+    .then(updateCounter);
 }
 
 // https://plainjs.com/javascript/utilities/merge-two-javascript-objects-19/
