@@ -21,7 +21,7 @@ var Pittmesh = {
   backoffMultiplier: 0,
 
   baseNodeMarkerOptions: {
-    radius: 3,
+    radius: 4,
     fillColor: "#000",
     color: "#000",
     weight: 1,
@@ -145,7 +145,7 @@ function geojsonFeatureCoordinatesToLeafletLatLong(feature) {
 function styleLink(item) {
   return {
     color: Pittmesh.colors.links[item.type],
-    weight: 1,
+    weight: 2,
     opacity: 0.8,
   }
 }
@@ -174,7 +174,7 @@ function putLinkOnMap(item, map) {
 }
 
 function loadNodes(map) {
-  return fetch("nodes.geojson")
+  return fetch("node-data/nodes.geojson")
     .then(function(resp) {
       return resp.json();
     })
@@ -208,6 +208,16 @@ function loadLinks(map) {
 
 function persistMap(map) {
   Pittmesh.mapObject = map
+  return Pittmesh.mapObject;
+}
+
+function adjustBounds(map) {
+  var bounds = Object.keys(Pittmesh.loadedNodes).map(function(key, index) {
+    return geojsonFeatureCoordinatesToLeafletLatLong(Pittmesh.loadedNodes[
+      key]);
+  });
+  map.fitBounds(L.latLngBounds(bounds));
+  return map;
 }
 
 function loadIt() {
@@ -215,6 +225,7 @@ function loadIt() {
     .then(loadNodes)
     .then(loadLinks)
     .then(persistMap)
+    .then(adjustBounds)
 }
 
 
