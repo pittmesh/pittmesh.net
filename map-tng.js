@@ -2,8 +2,9 @@
 var Pittmesh = {
   // TWEAKABLES
   map: {
-    center: [40.4602259, -79.9779362], // slightly north of downtown, enought to have a paragraph above it
-    height: 12, // enough to show eastern side of airport to west side of murraysville
+    // update these periodically to avoid a jerk when loading
+    center: [40.437033077345625, -79.9492335], // slightly north of downtown, enought to have a paragraph above it
+    height: 13, // enough to show eastern side of airport to west side of murraysville
   },
 
   colors: {
@@ -30,6 +31,7 @@ var Pittmesh = {
   },
 
   loadedNodes: {},
+  loadedLinks: [],
   mapObject: null,
 }
 
@@ -95,7 +97,14 @@ function recordNode(featureAndLayer) {
   return featureAndLayer;
 }
 
-function updateCounter(featureAndLayer) {
+function recordLink(linkAndLine) {
+  if (linkAndLine != undefined) {
+    Pittmesh.loadedLinks.push(linkAndLine)
+  }
+  return linkAndLine;
+}
+
+function updateNodeCounter(featureAndLayer) {
   var keys = Object.keys(Pittmesh.loadedNodes);
   document.getElementById('live').innerText = keys.length;
   document.getElementById('device_count').innerText = keys
@@ -107,7 +116,30 @@ function updateCounter(featureAndLayer) {
       return result;
     });
 
+  var planned = keys.filter(function(key, index) {
+    return Pittmesh.loadedNodes[key].properties.status == 'planned'
+  }).length;
+  var text = document.getElementById('planned').innerText;
+  text = text.replace('a few', planned);
+  if (planned == 1) {
+    // this is so bad
+    text = text.replace('nodes', 'node').replace('are', 'is');
+  }
+  document.getElementById('planned').innerText = text;
+
   return featureAndLayer;
+}
+
+function updateLinkCounter(linkAndLine) {
+  var linkCount = Pittmesh.loadedLinks[0].length
+  var text = document.getElementById('ptpLinks').innerText;
+  text = text.replace('many', linkCount);
+  if (linkCount == 1) {
+    // this is so bad
+    text = text.replace('links', 'link').replace('are', 'is');
+  }
+  document.getElementById('ptpLinks').innerText = text;
+  return linkAndLine;
 }
 
 function setupNodeFeature(feature, layer) {
@@ -117,7 +149,18 @@ function setupNodeFeature(feature, layer) {
     })
     .then(attachPopup)
     .then(recordNode)
-    .then(updateCounter);
+    .then(updateNodeCounter);
+}
+
+function putGeoJsonOnMap(json) {
+  L.geoJSON(json, {
+    // for lines
+    // style: determineColorForFeature,
+    // for points
+    pointToLayer: determineColorForMarker,
+    onEachFeature: setupNodeFeature,
+  }).addTo(Pittmesh.mapObject);
+  console.log(JSON.stringify(json));
 }
 
 // https://plainjs.com/javascript/utilities/merge-two-javascript-objects-19/
@@ -150,6 +193,14 @@ function styleLink(item) {
   }
 }
 
+function putLinksOnMap(links) {
+  return links.map(function(item, index, array) {
+    return putLinkOnMap(item, Pittmesh.mapObject);
+  }).filter(function(linkAndLine) {
+    return linkAndLine != undefined
+  });
+}
+
 function putLinkOnMap(item, map) {
   var from = Pittmesh.loadedNodes[item.from];
   if (from == undefined) {
@@ -171,37 +222,32 @@ function putLinkOnMap(item, map) {
   var polyline = L.polyline(line, styleLink(item))
     .addTo(map);
   //map.fitBounds(polyline.getBounds());
+  return {
+    link: item,
+    line: polyline
+  };
+}
+
+function convertResponseToJson(resp) {
+  return resp.json();
 }
 
 function loadNodes(map) {
   return fetch("node-data/nodes.geojson")
-    .then(function(resp) {
-      return resp.json();
-    })
-    .then(function(json) {
-      L.geoJSON(json, {
-        // for lines
-        // style: determineColorForFeature,
-        // for points
-        pointToLayer: determineColorForMarker,
-        onEachFeature: setupNodeFeature,
-      }).addTo(map);
-      console.log(JSON.stringify(json));
-    }).then(function() {
+    .then(convertResponseToJson)
+    .then(putGeoJsonOnMap)
+    .then(function() {
       return map;
     });
 }
 
 function loadLinks(map) {
   return fetch("node-data/links.json")
-    .then(function(resp) {
-      return resp.json();
-    })
-    .then(function(json) {
-      json.forEach(function(item, index, array) {
-        putLinkOnMap(item, map);
-      });
-    }).then(function() {
+    .then(convertResponseToJson)
+    .then(putLinksOnMap)
+    .then(recordLink)
+    .then(updateLinkCounter)
+    .then(function() {
       return map;
     });
 }
@@ -222,9 +268,9 @@ function adjustBounds(map) {
 
 function loadIt() {
   setupMap()
+    .then(persistMap)
     .then(loadNodes)
     .then(loadLinks)
-    .then(persistMap)
     .then(adjustBounds)
 }
 
