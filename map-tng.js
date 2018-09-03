@@ -7,12 +7,14 @@ var Pittmesh = {
   },
 
   colors: {
-    markers: {
+    nodes: {
       live: '#08a400',
       vpn: '#0080ff',
       planned: '#F57F18',
-    }
-
+    },
+    links: {
+      wifi: '#f00',
+    },
   },
 
   // MAYBE DON'T TOUCH
@@ -50,18 +52,18 @@ function determineColorForFeature(feature) {
   switch (feature.properties.status) {
     case 'live':
       return {
-        color: Pittmesh.colors.markers.live,
-        fillColor: Pittmesh.colors.markers.live
+        color: Pittmesh.colors.nodes.live,
+        fillColor: Pittmesh.colors.nodes.live
       };
     case 'vpn':
       return {
-        color: Pittmesh.colors.markers.vpn,
-        fillColor: Pittmesh.colors.markers.vpn
+        color: Pittmesh.colors.nodes.vpn,
+        fillColor: Pittmesh.colors.nodes.vpn
       };
     case 'planned':
       return {
-        color: Pittmesh.colors.markers.planned,
-        fillColor: Pittmesh.colors.markers.planned
+        color: Pittmesh.colors.nodes.planned,
+        fillColor: Pittmesh.colors.nodes.planned
       };
   }
 }
@@ -109,6 +111,28 @@ function extend(obj, src) {
   });
   return obj;
 }
+// geojson coordinates are lnglat, Leaflet is latlng
+function geojsonFeatureCoordinatesToLeafletLatLong(feature) {
+  if (feature) {
+    if (feature.geometry) {
+      if (feature.geometry.coordinates) {
+        return new L.latLng(
+          feature.geometry.coordinates[1],
+          feature.geometry.coordinates[0]
+        );
+      }
+    }
+  }
+  return null;
+}
+
+function styleLink(item) {
+  return {
+    color: Pittmesh.colors.links[item.type],
+    weight: 1,
+    opacity: 0.8,
+  }
+}
 
 function putLinkOnMap(item, map) {
   var from = Pittmesh.loadedNodes[item.from];
@@ -124,15 +148,13 @@ function putLinkOnMap(item, map) {
     return;
   }
   var line = [
-    new L.latLng(from.geometry.coordinates),
-    new L.latLng(to.geometry.coordinates)
+    geojsonFeatureCoordinatesToLeafletLatLong(from),
+    geojsonFeatureCoordinatesToLeafletLatLong(to),
   ];
-  console.log("Drawing line " + line);
-  var polyline = L.polyline(line, {
-      color: '#000'
-    })
+  console.log("Drawing line " + line + " from " + from.id + " to " + to.id);
+  var polyline = L.polyline(line, styleLink(item))
     .addTo(map);
-  map.fitBounds(polyline.getBounds());
+  //map.fitBounds(polyline.getBounds());
 }
 
 function loadNodes(map) {
