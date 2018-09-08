@@ -17,6 +17,7 @@ $(BUILD_DIR)/%: $(SRC_DIR)%
 	cp -r $< $@
 
 $(BUILT_GEOJSON): $(SRC_DIR)/node-data/nodes.json
+	@test -d "$(dir $@)" || mkdir -p "$(dir $@)"
 	scripts/pittmesh_nodes_to_geojson.sh "$<" > "$@"
 
 .phony: docker-build
