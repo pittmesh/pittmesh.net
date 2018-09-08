@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
-set -e # halt script on error
+# halt script on error
+set -e
 
-# ensure that the site builds
-bundle exec jekyll build
-
-# check external links
-bundle exec htmlproofer --only-4xx ./_site
-
+echo "Checking nodes…"
 # check format of nodes manifest - necessitates
-sed -e '2,$!d' -e '$d' ./node-data/nodes.json | jq . > /dev/null
+sed -e '2,$!d' -e '$d' ./src/node-data/nodes.json | jq . > /dev/null
 
+echo "Checking links…"
 # check format of links manifest - necessitates
-sed -e '2,$!d' -e '$d' ./node-data/links.json | jq . > /dev/null
+cat ./src/node-data/links.json | jq . > /dev/null
+
+echo "Building site…"
+# make it
+make -j
+
+echo "Checking links…"
+# check external links
+htmlproofer --only-4xx ./build
+
