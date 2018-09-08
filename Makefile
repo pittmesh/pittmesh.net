@@ -2,6 +2,7 @@ DOCKER_TAG := pittmeshwww:latest
 SRC_DIR := src/
 BUILD_DIR := build
 SITE_FILES := $(shell find -L $(SRC_DIR) \! \( \( -regex '.*/\.\(gitignore\)' -o -regex '.*\.\(inc\|swp\|orig\|git\)' -o -regex '.*/modules' \) -prune \) -type f )
+DOCKER_PORT ?= 8080
 
 BUILT_GEOJSON := $(BUILD_DIR)/node-data/nodes.geojson
 BUILT_SITE_FILES := $(patsubst $(SRC_DIR)%,$(BUILD_DIR)/%,$(SITE_FILES)) $(BUILT_GEOJSON)
@@ -25,6 +26,9 @@ docker-build:
 .phony: docker-tag
 docker-tag:
 	@echo $(DOCKER_TAG)
+
+docker-run:
+	docker run -it -p "$(DOCKER_PORT):80" $(DOCKER_TAG)
 
 .phone: clean
 clean:

@@ -1,7 +1,7 @@
 language: generic
 install:
 - "gem install html-proofer"
-- "apt-add-repository ppa:duggan/jo --yes && apt-get update -q --yes && apt-get install jo --yes"
+- "sudo apt-add-repository ppa:duggan/jo --yes && sudo apt-get update -q --yes && sudo apt-get install jo --yes"
 script:
 - "scripts/cibuild"
 env:
