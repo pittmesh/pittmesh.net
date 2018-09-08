@@ -43,7 +43,8 @@ function setupMap() {
 
   var map = L.map('map').fitWorld();
 
-  var tileLayer = new L.StamenTileLayer("terrain");
+  var tileLayer = new L.StamenTileLayer("terrain")
+    .setUrl("//stamen-tiles-{s}a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg");
   map.addLayer(tileLayer);
   map.setView(Pittmesh.map.center, Pittmesh.map.height);
 
