@@ -31,6 +31,7 @@ env:
   - secure: QQ2UV/Em/glHq9TcBr0Hr8VSPLGgI+f8NlvGzaJksK96o3RPt1zczGPADZNrKbmbTSSzHjwi882NoxqjHWRDNTUX+WcMwuMnR5Bq1AhLwXyliWp+/v7TdnDGlOUadmfnZMu4XbSWq+KHuTHj4EayFOJBYRKgjDEPu3hjAT0f8mo=
 deploy:
 - provider: script
+  skip_cleanup: true
   script: scripts/deploy.sh && scripts/notify.sh "${TRAVIS_BUILD_SLUG} deployed, check https://pittmesh.net!"
   on:
     branch:
