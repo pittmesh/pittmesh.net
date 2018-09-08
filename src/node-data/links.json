@@ -7,6 +7,14 @@
   "to": "Winton St. and Craighead St",
   "type": "wifi"
 }, {
+  "from": "HackPGH",
+  "to": "Polska Szkola",
+  "type": "wifi"
+}, {
+  "from": "Paramount Film Exchange",
+  "to": "Polska Szkola",
+  "type": "wifi"
+}, {
   "from": "ABC Storage Redirect",
   "to": "97 South 23rd Street",
   "type": "wifi"
@@ -31,7 +39,7 @@
   "to": "McClain Street Redirect",
   "type": "wifi"
 }, {
-  "from": "Subfortress",
+  "from": "1733 Arlington Ave, South Side Slopes",
   "to": "125 Locust Street, Mt Oliver, PA 15210",
   "type": "wifi"
 }, {
