@@ -8,7 +8,7 @@ addons:
     - jq
     - pv
 before_install:
-- openssl aes-256-cbc -K $encrypted_8de9452a1cf9_key -iv $encrypted_8de9452a1cf9_iv -in etc/deploy/ssh/id_ed25519.pittmesh.net.travis.enc -out $SSH_IDENTITY_FILE -d
+- openssl aes-256-cbc -K $encrypted_8de9452a1cf9_key -iv $encrypted_8de9452a1cf9_iv -in etc/deploy/ssh/id_ed25519.pittmesh.net.travis.enc -out $SSH_IDENTITY_FILE -d && chmod 600 $SSH_IDENTITY_FILE
 install:
 - cat etc/deploy/ssh/known_hosts >> $HOME/.ssh/known_hosts
 - gem install html-proofer
