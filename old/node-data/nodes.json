@@ -9,6 +9,33 @@ onLoadMarkers(
     "status": "live",
     "device_count": 2
   },
+   {
+    "lat": 40.425660,
+    "lon": -79.983210,
+    "name": "Polska Szkola",
+    "address": "171 s 15th st, Pittsburgh, PA 15203",
+    "hood": "South Side",
+    "status": "live",
+    "device_count": 1
+  },
+   {
+    "lat": 40.415092,
+    "lon": -79.987364,
+    "name": "Bakery Society of Pittsburgh",
+    "address": "225 Brownsville rd, pittsburgh, pa 15210",
+    "hood": "Mt. Oliver",
+    "status": "live",
+    "device_count": 1
+  },
+     {
+    "lat": 40.293225,
+    "lon": -79.886397,
+    "name": "Prodcue Marketplace",
+    "address": "519 St. Clair Ave, Clairton, PA 15025",
+    "hood": "Clairton",
+    "status": "live",
+    "device_count": 1
+  },
   {
     "lat": 40.426987,
     "lon": -79.973044,

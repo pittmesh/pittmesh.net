@@ -11,6 +11,16 @@ onLoadLinks(
     "type":"wifi"
   },
   {
+    "from":"HackPGH",
+    "to":"Polska Szkola",
+    "type":"wifi"
+  },
+    {
+    "from":"Paramount Film Exchange",
+    "to":"Polska Szkola",
+    "type":"wifi"
+  },
+  {
     "from":"ABC Storage Redirect",
     "to":"97 South 23rd Street",
     "type":"wifi"
@@ -22,7 +32,7 @@ onLoadLinks(
   },
   {
     "from":"HackPGH",
-    "to":"Finello Pavillion",
+    "to":"Finello Pavilion",
     "type":"wifi"
   },
   {
@@ -32,7 +42,7 @@ onLoadLinks(
   },
   {
     "from":"Morse Gardens",
-    "to":"Finello Pavillion",
+    "to":"Finello Pavilion",
     "type":"wifi"
   },
   {
