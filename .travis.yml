@@ -8,8 +8,9 @@ addons:
     - jq
     - pv
 before_install:
-- openssl aes-256-cbc -K $encrypted_8de9452a1cf9_key -iv $encrypted_8de9452a1cf9_iv -in id_ed25519.pittmesh.net.travis.enc -out id_ed25519.pittmesh.net.travis -d
+- openssl aes-256-cbc -K $encrypted_8de9452a1cf9_key -iv $encrypted_8de9452a1cf9_iv -in etc/deploy/ssh/id_ed25519.pittmesh.net.travis.enc -out $SSH_IDENTITY_FILE -d
 install:
+- cat etc/deploy/ssh/known_hosts >> $HOME/.ssh/known_hosts
 - gem install html-proofer
 - sudo apt-add-repository ppa:duggan/jo --yes && sudo apt-get update -q --yes && sudo apt-get install jo --yes
 script:
@@ -17,7 +18,7 @@ script:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - SSH_IDENTITY_FILE=id_ed25519.pittmesh.net.travis
+  - SSH_IDENTITY_FILE=$HOME/.ssh/id_ed25519.pittmesh.net.travis
   - secure: ad+ToHBvOm2VhsolVsANbHh0Rk+VHjuC4Ypotr2j20PoPW3NPjNOnt9rdtQXIHpurYG6XQ2dmq1BJPiBHLJjC9GSa7hs7umI53QD7bwsQcl4TMU6BqCYMDvA+KTBD9seagEBarZthKfPwClpGesKr4mBG0eeKmMPCwoDgtfXy/Y=
   - secure: JlW2daM0lUpyaiN9fUxoN3nxRaqdZMZ8qZ4bjTbCdg5e0a8JloUKJprNTsl06f1l5/j/YA4PqQEdaV0S6efHobWSSsgywjB2X6RIUjRfL4cPFoenSl7HW1Xot4gooHtRNwBuMFbfwVoFhhxoKVebMDTqOHPSLHHd6CSvyLWfjH8=
   - secure: Nj9r8Uhr3byz7qn+Uz/t1oDjbuVdS8KBv0hKTqkIL8+W4rQLP+BCgXaPOlHNF1UfU2RFB+6CTJkbJ8eVafo93QQcZoyMO3NjwYBvNMaMDCrwiTNy0IwaEhSl/OvQerlWFD55nMBIGhzaGcFAA/RVA2ODlDMMlkQ+39a9nFUCVhk=

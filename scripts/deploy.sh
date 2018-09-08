@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -e
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
-#rsync -avzP --delete --exclude .git -e "${DIR}/pass.sh ssh -p ${SSH_PORT}" . "${SSH_USER}@${SSH_HOST}:pittmesh_net" && \
-#  ssh -p "${SSH_PORT}" "${SSH_USER}@${SSH_HOST}" "cd pittmesh_net && make docker-build && docker run pittmeshwww:latest"
-
+#DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 docker save $(make docker-tag)| \
   pv -cN bzip | \
   bzip2 | \
