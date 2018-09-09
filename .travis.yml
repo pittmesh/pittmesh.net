@@ -19,7 +19,7 @@ install:
   apt-get install jo --yes
 script:
 - scripts/cibuild
-- scripts/notify.sh "${TRAVIS_BUILD_SLUG} ${TRAVIS_BUILD_NUMBER}: ${TRAVIS_TEST_RESULT}"
+- 'scripts/notify.sh "${TRAVIS_BUILD_SLUG} ${TRAVIS_BUILD_NUMBER}: ${TRAVIS_TEST_RESULT}"'
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
@@ -32,7 +32,7 @@ env:
 deploy:
 - provider: script
   skip_cleanup: true
-  script: scripts/deploy.sh && scripts/notify.sh "${TRAVIS_BUILD_SLUG} deployed, check https://pittmesh.net!"
+  script: 'scripts/deploy.sh && scripts/notify.sh "${TRAVIS_BUILD_SLUG} deployed, check https://pittmesh.net!"'
   on:
     branch:
     - master
