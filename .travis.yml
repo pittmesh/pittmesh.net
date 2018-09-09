@@ -16,10 +16,10 @@ install:
 - gem install html-proofer
 - sudo apt-add-repository ppa:duggan/jo --yes && sudo apt-get update -q --yes && sudo
   apt-get install jo --yes
-- 'scripts/notify.sh "${TRAVIS_REPO_SLUG} ${TRAVIS_BUILD_NUMBER}: "${TRAVIS_COMMIT_MESSAGE}": build underway"'
+- 'scripts/notify.sh "${TRAVIS_REPO_SLUG} ${TRAVIS_BUILD_NUMBER}: [${TRAVIS_COMMIT_MESSAGE}]: ${TRAVIS_EVENT_TYPE} build underway"'
 script:
 - scripts/cibuild
-- 'scripts/notify.sh "${TRAVIS_REPO_SLUG} ${TRAVIS_BUILD_NUMBER}: $( if [[ ${TRAVIS_TEST_RESULT} -eq 0 ]]; then echo ":x:"; else echo ":white_check_mark:"; fi )"'
+- 'scripts/notify.sh "${TRAVIS_REPO_SLUG} ${TRAVIS_BUILD_NUMBER}: $( if [[ ${TRAVIS_TEST_RESULT} -eq 1 ]]; then echo ":x:"; else echo ":white_check_mark:"; fi )"'
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
