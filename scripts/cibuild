@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# halt script on error
+set -e
+
+echo "Checking nodes…"
+# check format of nodes manifest - necessitates
+sed -e '2,$!d' -e '$d' ./src/node-data/nodes.json | jq . > /dev/null
+
+echo "Checking links…"
+# check format of links manifest - necessitates
+cat ./src/node-data/links.json | jq . > /dev/null
+
+echo "Building site…"
+# make it
+make -j
+
+echo "Checking links…"
+# check external links
+htmlproofer --only-4xx ./build
+
+echo "Building container…"
+make docker-build
+

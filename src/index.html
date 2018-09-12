@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="utf-8">
+   <meta property="og:type" content="website" />
+   <meta property="og:title" content="Pittmesh" />
+   <meta property="og:url" content="https://pittmesh.net" />
+   <meta name="description" content="Pittmesh is Pittsburgh's community wireless network. Check out the coverage map!">
+   <meta property="og:description" content="Pittmesh is Pittsburgh's community wireless network. Check out the coverage map!"/>
+   <meta property="og:site_name" content="Pittmesh" />
+   <meta property="og:image" content="https://pittmesh.net/images/pittmesh_og.jpg" />
+   <meta name="twitter:domain" value="pittmesh.net"/>
+   <meta name="twitter:title" value="Pittmesh"/>
+   <meta property="twitter:image" content="https://pittmesh.net/images/pittmesh_og.jpg" />
+   <meta name="twitter:description" value="Pittmesh is Pittsburgh's community wireless network. Check out the coverage map!"/>
+   <meta name="twitter:card" content="summary" />
+   <meta name="twitter:site" content="@metameshwc"/>
+   <meta name="twitter:creator" content="@metameshwc"/>
+
+   <meta name="theme-color" content="#9cb5cc"/>
+
+ <title>Pittmesh | Wireless Community Network</title>
+ <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+  crossorigin=""></script>
+  <script src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script>
+  <style>
+  #map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+  div.leaflet-popup.node .leaflet-popup-content-wrapper:before {
+    font-variant-caps: small-caps;
+    padding-left: 0.7em;
+  }
+  div.leaflet-popup.node.node-planned .leaflet-popup-content-wrapper {
+    border: 2px solid #F57F18;
+  }
+  div.leaflet-popup.node.node-planned .leaflet-popup-content-wrapper:before {
+    content: "planned node";
+  }
+  div.leaflet-popup.node.node-live .leaflet-popup-content-wrapper {
+    border: 2px solid #08a400;
+  }
+  div.leaflet-popup.node.node-live .leaflet-popup-content-wrapper:before {
+    content: "live node";
+  }
+  div.leaflet-popup.node.node-vpn .leaflet-popup-content-wrapper {
+    border: 2px solid #0080ff;
+  }
+  div.leaflet-popup.node.node-vpn .leaflet-popup-content-wrapper:before {
+    content: "vpn node";
+  }
+
+
+  #content.page {
+    z-index: 99;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.83);
+    font-family: 'Raleway', sans-serif;
+  }
+  #content.page h1 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  </style>
+</head>
+<body>
+<div id="content" class="page">
+  <h1 id="pittmesh-is-a-community-owned-wireless-network-in-pittsburgh-pennsylvania-"
+    >PittMesh is a community wireless network in Pittsburgh, Pennsylvania, USA.</h1>
+  <p>
+    PittMesh is a <a href="https://en.wikipedia.org/wiki/Wireless_mesh_network">wireless mesh network</a>
+    constructed under the auspices of non-profit <a href="http://www.metamesh.org">Meta Mesh Wireless Communities</a>.
+    For a brief
+    introduction to PittMesh and mesh networking in general, please view our
+    <a href="https://www.youtube.com/watch?v=OvAT7DTspaM">informational video</a>.
+  </p>
+  <p>
+    PittMesh currently has
+    <span id="live">dozens of</span> live sites
+    <svg viewBox="0 0 16 16" width="16" height="16">
+      <circle stroke="#08a400" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="#08a400" fill-opacity="0.9" fill-rule="evenodd" cx="8" cy="8" r="4"/>
+    </svg>
+    comprised of <span id="device_count">many</span> devices.
+    <span id="planned">There are a few planned sites.</span>
+    <svg viewBox="0 0 16 16" width="16" height="16">
+      <circle stroke="#F57F18" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="#F57F18" fill-opacity="0.9" fill-rule="evenodd" cx="8" cy="8" r="4"/>
+    </svg>
+    <span id="ptpLinks">There are many point-to-point links between sites.</span>
+  </p>
+  <p>Want to help build the future of connectivity in Pittsburgh?
+  <a href="http://www.metamesh.org/#!contact-meta-mesh/c24vq">Contact Meta Mesh.</a>
+  You can also <a href="https://github.com/pittmesh/pittmesh.net/issues/new?title=New+site+report&amp;body=_Fill%20in%20this%20message%20to%20complete%20your%20report.%20Remove%20everything%20above%20the%20three%20dashes%20below%20before%20submitting._%0A%0A---%0A%0AI%20would%20like%20to%20report%20a%20new%20PittMesh%20site.%20I%27ve%20completed%20the%20JSON%20object%20below%20describing%20my%20site%20including%20the%20number%20of%20routing%20devices%20present%20at%20the%20site.%0A%0A%60%60%60%0A%7B%0A%20%20%20%20%22lat%22%3A%20XX.XXXXXX%2C%0A%20%20%20%20%22lon%22%3A%20-XX.XXXXXX%2C%0A%20%20%20%20%22name%22%3A%20%22XXXX%20The%20name%20of%20the%20business%20or%20Private%20Residence%22%2C%0A%20%20%20%20%22address%22%3A%20%22Full%20postal%20address%22%2C%0A%20%20%20%20%22hood%22%3A%20%22Municipality%2C%20or%20neighborhood%20if%20within%20the%20City%20of%20Pittsburgh%22%2C%0A%20%20%20%20%22status%22%3A%20%22live%22%2C%0A%20%20%20%20%22device_count%22%3A%20XX%0A%7D%0A%60%60%60%0A%0A">tell us about your PittMesh
+  node</a>.</p>
+
+     </div>
+<div id="map"></div>
+
+<script src="map-tng.js"></script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-107488253-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107488253-1');
+</script>
+   </body>
+ </html>
