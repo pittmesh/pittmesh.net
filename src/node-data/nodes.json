@@ -48,6 +48,14 @@ onLoadMarkers(
     "status": "live",
     "device_count": 2
   }, {
+    "lat": 40.436615,
+    "lon": -79.976642,
+    "name": "Tustin Tot Lot",
+    "address": "2028 Tustin St, Pittsburgh, PA 15219",
+    "hood": "Uptown",
+    "status": "live",
+    "device_count": 3
+  }, {
     "lat": 40.436666,
     "lon": -79.926868,
     "name": "Squirrel Hill 1",
