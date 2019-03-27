@@ -33,3 +33,14 @@ using password authentication. Assuming that the key is located in your local
 
     travis encrypt-file --com ~/.ssh/id_ed25519.pittmesh.net.travis etc/deploy/ssh/id_ed25519.pittmesh.net.travis.enc
 
+### Deploying semi-manually when PittMesh.net is offline
+
+Sometimes the server on which this is hosted kills the site's container and
+doesn't restart it. The easiest way to restart that container is to manually
+start a CI build on the `master` branch, using these instructions:
+
+1. Go to the [Travis build branches list](https://travis-ci.com/pittmesh/pittmesh.net/branches).
+2. Ensure that the latest master branch build is green: in the boxes to the right, the leftmost _must_ be green and the text to the left of it _should_ say something like `#9 passed`. If it's not green, something went wrong and Colin will probably need to look at it.
+3. Go up to "More Options" on the righthand side.
+4. Click on "Trigger build".
+5. Choose "master" branch and click "Trigger custom build".
