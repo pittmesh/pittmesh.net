@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 #DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
-docker save $(make docker-tag)| \
+docker save "$(make docker-tag)" | \
   pv -cN bzip | \
   bzip2 | \
   pv -cN ssh | \
