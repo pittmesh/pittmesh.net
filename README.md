@@ -66,9 +66,9 @@ start a CI build on the `master` branch, using these instructions:
 
 ## History
 
-The first site was built on [Jekyll](https://jekyllrb.com/) and [ModestMaps](http://modestmaps.com/). 
-It was great for a few years but showed its age in how difficult it was to update. 
-The next, and current, version was built with [Leaflet.js](https://leafletjs.com/) 
+The first site was built on [Jekyll](https://jekyllrb.com/) and [ModestMaps](http://modestmaps.com/).
+It was great for a few years but showed its age in how difficult it was to update.
+The next, and current, version was built with [Leaflet.js](https://leafletjs.com/)
 and made the site a lot easier to update!
 
 ## License
@@ -82,5 +82,3 @@ unless otherwise specified.
 
 Uses [Leaflet.js](https://leafletjs.com/).
 
-Map pin image is public domain, but drawn by
-[netalloy](https://openclipart.org/detail/169839/map-pin-by-netalloy).
