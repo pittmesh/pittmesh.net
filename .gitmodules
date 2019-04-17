@@ -1,3 +1,0 @@
-[submodule "ipcalc"]
-	path = old/ipcalc
-	url = https://github.com/pittmesh/ip-calculator.git
