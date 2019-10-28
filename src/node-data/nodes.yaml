@@ -1,0 +1,463 @@
+---
+- lat: 40.4217654
+  lon: -79.99593829999998
+  name: Onion Maiden
+  address: 639 E Warrington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.42566
+  lon: -79.98321
+  name: Polska Szkola
+  address: 171 s 15th st, Pittsburgh, PA 15203
+  hood: South Side
+  status: live
+  device_count: 1
+- lat: 40.415092
+  lon: -79.987364
+  name: Bakery Society of Pittsburgh
+  address: 225 Brownsville rd, pittsburgh, pa 15210
+  hood: Mt. Oliver
+  status: live
+  device_count: 1
+- lat: 40.293225
+  lon: -79.886397
+  name: Prodcue Marketplace
+  address: 519 St. Clair Ave, Clairton, PA 15025
+  hood: Clairton
+  status: live
+  device_count: 1
+- lat: 40.426987
+  lon: -79.973044
+  name: 2301 Larkins Way
+  address: 2301 Larkins Way, Pittsburgh, PA 15203
+  hood: South Side
+  status: live
+  device_count: 1
+- lat: 40.421875
+  lon: -79.993901
+  name: AcademyPGH
+  address: 753 E Warrington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.436615
+  lon: -79.976642
+  name: Tustin Tot Lot
+  address: 2028 Tustin St, Pittsburgh, PA 15219
+  hood: Uptown
+  status: live
+  device_count: 3
+- lat: 40.436666
+  lon: -79.926868
+  name: Squirrel Hill 1
+  address: 5618 Darlington Rd., Pittsburgh, PA 15217
+  hood: Squirrel Hill
+  status: live
+  device_count: 1
+- lat: 40.42235
+  lon: -79.991101
+  name: ABC Storage Redirect
+  address: 1107 Arlington Ave, Pittsburgh, PA 15203
+  hood: Allentown
+  status: live
+  device_count: 3
+- lat: 40.424137
+  lon: -79.992185
+  name: McClain Street Redirect
+  address: 846 McClain St, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 1
+- lat: 40.426829
+  lon: -79.970725
+  name: Morse Gardens
+  address: 2416 Sarah St., Pittsburgh, PA 15203
+  hood: South Side
+  status: live
+  device_count: 2
+- lat: 40.434033
+  lon: -79.959901
+  name: Finello Pavilion
+  address: 3206 Niagara St, Pittsburgh, PA, 15213
+  hood: Oakland
+  status: live
+  device_count: 2
+- lat: 40.420739
+  lon: -79.993445
+  name: High Hrothgar
+  address: 20 Allen St, Pittsburgh, PA, 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.450606
+  lon: -79.975674
+  name: Bedford Dwellings
+  address: Pittsburgh, PA 15219
+  hood: Hill District
+  status: planned
+  device_count: 1
+- lat: 40.409928
+  lon: -80.024493
+  name: Sorgatron Media
+  address: 1619 Broadway Ave, Pittsburgh, PA 15216
+  hood: Beechview
+  status: live
+  device_count: 1
+- lat: 40.442785
+  lon: -79.884627
+  name: 901 Wood Street 2401
+  address: 901 Wood Rear
+  hood: Wilkinsburg
+  status: live
+  device_count: 2
+- lat: 40.399787
+  lon: -79.86361
+  name: Verona Street Bus Stop
+  address: 913 Braddock Ave, 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.423906
+  lon: -79.979045
+  name: Oporto and Gregory Street
+  address: Gregory Street, Pittsburgh, PA 15213
+  hood: South Side Slopes
+  status: live
+  device_count: 1
+- lat: 40.400014
+  lon: -80.039156
+  name: Private Resident
+  address: 1731 Potomac Ave, Pittsburgh, PA 15216
+  hood: Dormont
+  status: live
+  device_count: 1
+- lat: 40.403726
+  lon: -79.869668
+  name: Studebaker Metals
+  address: 534 Braddock, Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.446954
+  lon: -79.912112
+  name: Wilkins 2401
+  address: 6739 Wilkins Ave, Pittsburgh, PA, 15217
+  hood: Point Breeze
+  status: live
+  device_count: 1
+- lat: 40.402926
+  lon: -79.868175
+  name: A Boss Opticians
+  address: 614 Braddock Ave, Braddock, PA, 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.452192
+  lon: -80.018727
+  name: Calvary United Methodist Church
+  address: 954 Beech Ave, Pittsburgh, PA 15233
+  hood: North Side
+  status: live
+  device_count: 6
+- lat: 40.402181
+  lon: -79.86723
+  name: Infamous Cutz
+  address: 704 Braddock Ave, Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.398575
+  lon: -79.862365
+  name: United Steelworkers Building
+  address: 1070 Braddock Ave, Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.430472
+  lon: -79.985556
+  name: Penguino Labs
+  address: 20-1/2 South 13th
+  hood: South Side
+  status: live
+  device_count: 2
+- lat: 40.40399
+  lon: -79.869722
+  name: Free Press Building
+  address: 528 Braddock Ave, Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.422404
+  lon: -79.994728
+  name: Anonymous
+  address: 700 block Carnival Way., Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 1
+- lat: 40.432635
+  lon: -79.927568
+  name: 5000 Hobart
+  address: 5000 Hobart st., Pittsburgh, PA 15217
+  hood: Squirrel Hill
+  status: live
+  device_count: 1
+- lat: 40.398973
+  lon: -79.863357
+  name: Braddock Farms
+  address: 1008 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 3
+- lat: 40.400654
+  lon: -79.864795
+  name: Braddock Employment Training Center
+  address: 1008 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.401804
+  lon: -79.866813
+  name: Braddock Bark Park
+  address: 717 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.397696
+  lon: -79.860623
+  name: Superior Motors
+  address: 1215 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.402621
+  lon: -79.867468
+  name: Golden Treasures
+  address: 709 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.397833
+  lon: -79.860981
+  name: UnSmoke Systems Art Space
+  address: 1137 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 2
+- lat: 40.403215
+  lon: -79.868299
+  name: Bell's Market
+  address: 603 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 2
+- lat: 40.406155
+  lon: -79.873747
+  name: Peppers N'at
+  address: 28 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.398129
+  lon: -79.859311
+  name: 37 Wood Street
+  address: 37 Wood Street, Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.405658
+  lon: -79.872762
+  name: Ink Division
+  address: 218 Braddock Ave., Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.421025
+  lon: -79.994101
+  name: 79 Allen st.
+  address: 79 Allen St., Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 1
+- lat: 40.421743
+  lon: -79.992906
+  name: Hilltop Pharmacy
+  address: 818 E Warrington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.479748
+  lon: -79.971535
+  name: Moose Mode
+  address: 112 E Sherman, Millvale, PA 15209
+  hood: Millvale
+  status: live
+  device_count: 1
+- lat: 40.416747
+  lon: -79.986724
+  name: 127 Brownsville Rd., Mt Oliver, PA 15210
+  address: 127 Brownsville Rd., Mt Oliver, PA 15210
+  hood: Mt. Oliver
+  status: live
+  device_count: 3
+- lat: 40.42162363944305
+  lon: -79.99721378087997
+  name: 600 E Warrington Ave
+  address: 600 E Warrington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.42178246558993
+  lon: -79.99411851167679
+  name: WorkHardPGH
+  address: 744 E Warrington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 3
+- lat: 40.42146770067946
+  lon: -79.99228522181511
+  name: 1206 Arlington Ave
+  address: 1206 Arlington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.417765492763436
+  lon: -79.98515456914902
+  name: Subfortress
+  address: 1733 Arlington Ave, Pittsburgh, PA 15210
+  hood: South Side Slopes
+  status: live
+  device_count: 5
+- lat: 40.421876
+  lon: -79.9931352
+  name: UniqueHome
+  address: 815 E Warrington Ave, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 1
+- lat: 40.437934569892626
+  lon: -79.9780909717083
+  name: HackPGH
+  address: 1936 5th Avenue, Pittsburgh, PA 15219
+  hood: Uptown
+  status: live
+  device_count: 3
+- lat: 40.4359199
+  lon: -79.9818112
+  name: Paramount Film Exchange
+  address: 544 Miltenberger St., Pittsburgh, PA 15219
+  hood: Uptown
+  status: live
+  device_count: 3
+- lat: 40.421108
+  lon: -79.992794
+  name: RE360
+  address: 829 Industry Street, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.422169
+  lon: -79.993279
+  name: Caliguiri Building
+  address: 803 East Warrington Avenue, Pittsburgh, PA 15210
+  hood: Allentown
+  status: live
+  device_count: 3
+- lat: 40.395048
+  lon: -80.021332
+  name: 631 Brookline Blvd.
+  address: 631 Brookline Blvd., Pittsburgh, PA 15226
+  hood: Brookline
+  status: live
+  device_count: 1
+- lat: 40.404438
+  lon: -79.870165
+  name: Brew Gentlemen Brewery
+  address: 512 Braddock Ave, Braddock, PA 15104
+  hood: Braddock
+  status: live
+  device_count: 2
+- lat: 40.394291
+  lon: -80.008284
+  name: 1415 Milan Ave
+  address: 1415 Milan Ave, Brookline, 15226
+  hood: Brookline
+  status: live
+  device_count: 2
+- lat: 40.394356
+  lon: -80.004999
+  name: Crookline Data Center
+  address: 1517 Milan Ave, Brookline, 15226
+  hood: Brookline
+  status: live
+  device_count: 1
+- lat: 40.404736
+  lon: -79.870861
+  name: The Free Store
+  address: 401-465 Braddock Ave
+  hood: Braddock
+  status: live
+  device_count: 1
+- lat: 40.423068
+  lon: -79.998515
+  name: Winton St. and Craighead St
+  address: Winton St. and Craighead St
+  hood: Allentown
+  status: live
+  device_count: 2
+- lat: 40.427916
+  lon: -79.972932
+  name: 97 South 23rd Street
+  address: 97 South 23rd Street
+  hood: South Side
+  status: live
+  device_count: 4
+- lat: 40.444325
+  lon: -79.979147
+  name: Black Beauty's Bar
+  address: 2037 Centre Ave, Pittsburgh, PA 15219
+  hood: Hill District
+  status: live
+  device_count: 1
+- lat: 40.446502
+  lon: -79.968122
+  name: Warren United Methodist
+  address: 2606 Centre Ave, Pittsburgh, PA 15219
+  hood: Hill District
+  status: live
+  device_count: 1
+- lat: 40.443991
+  lon: -79.979942
+  name: Hill CDC
+  address: 2015 Centre Ave, Pittsburgh, PA 15219
+  hood: Hill District
+  status: live
+  device_count: 1
+- lat: 40.444092
+  lon: -79.979709
+  name: Hill District Federal Credit Union
+  address: 2021 Centre Ave, Pittsburgh, PA 15219
+  hood: Hill District
+  status: live
+  device_count: 1
+- lat: 40.443818
+  lon: -79.979867
+  name: Gaudenzia Erie Inc
+  address: 2012 Centre Ave, Pittsburgh, PA 15219
+  hood: Hill District
+  status: live
+  device_count: 1
+- lat: 40.445296
+  lon: -79.973935
+  name: MOKA Art Gallery
+  address: 502 Soho Street, Pitsburgh, PA 15219
+  hood: Hill District
+  status: live
+  device_count: 1
+- lat: 40.445591
+  lon: -79.970507
+  name: Power 59 LLC
+  address: 2503 Centre Ave
+  hood: Hill District
+  status: live
+  device_count: 1
