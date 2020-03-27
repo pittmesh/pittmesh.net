@@ -8,7 +8,7 @@ onLoadMarkers(
     "status": "live",
     "device_count": 2
   }, {
-    "lat": 40.425660,40.422555, -79.990967
+    "lat": 40.425660,
     "lon": -79.983210,
     "name": "Polska Szkola",
     "address": "171 s 15th st, Pittsburgh, PA 15203",
