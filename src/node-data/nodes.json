@@ -16,17 +16,33 @@ onLoadMarkers(
     "status": "live",
     "device_count": 1
   }, {
+    "lat": 40.422555,
+    "lon": -79.990967,
+    "name": "1101 Arlington",
+    "address": "1101 Arlington Avenue, Pittsburgh, PA 15210",
+    "hood": "Allentown",
+    "status": "live",
+    "device_count": 1
+  }, {
     "lat": 40.415092,
     "lon": -79.987364,
     "name": "Bakery Society of Pittsburgh",
-    "address": "225 Brownsville rd, pittsburgh, pa 15210",
+    "address": "225 Brownsville rd, Pittsburgh, PA 15210",
+    "hood": "Mt. Oliver",
+    "status": "live",
+    "device_count": 1
+  }, {
+    "lat": 40.415092,
+    "lon": -79.987364,
+    "name": "Black Forge Coffee 2",
+    "address": "701 Chartiers Avenue, Pittsburgh, PA 15136",
     "hood": "Mt. Oliver",
     "status": "live",
     "device_count": 1
   }, {
     "lat": 40.293225,
     "lon": -79.886397,
-    "name": "Prodcue Marketplace",
+    "name": "Produce Marketplace",
     "address": "519 St. Clair Ave, Clairton, PA 15025",
     "hood": "Clairton",
     "status": "live",
@@ -39,14 +55,6 @@ onLoadMarkers(
     "hood": "South Side",
     "status": "live",
     "device_count": 1
-  }, {
-    "lat": 40.421875,
-    "lon": -79.993901,
-    "name": "AcademyPGH",
-    "address": "753 E Warrington Ave, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live",
-    "device_count": 2
   }, {
     "lat": 40.436615,
     "lon": -79.976642,
@@ -63,6 +71,70 @@ onLoadMarkers(
     "hood": "Squirrel Hill",
     "status": "live",
     "device_count": 1
+  }, {
+    "lat": 40.494870,
+    "lon": -79.932114,
+    "name": "Sugar Spell Scoops",
+    "address": "1014 North Canal Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 1
+  }, {
+    "lat": 40.494714,
+    "lon": -79.935379,
+    "name": "Ketchup City",
+    "address": "612 Main Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 1
+  }, {
+    "lat": 40.494652,
+    "lon": -79.932113,
+    "name": "Jacoby and Associates",
+    "address": "1000 Main Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 4
+  }, {
+    "lat": 40.494466,
+    "lon": -79.932612,
+    "name": "Dancing Gnome Brewery",
+    "address": "925 Main Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 1
+  }, {
+    "lat": 40.494565,
+    "lon": -79.935127,
+    "name": "Dr. Conicella Family Dentistry",
+    "address": "701 Main Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 1
+  }, {
+    "lat": 40.494570,
+    "lon": -79.935915,
+    "name": "Sharpsburg Neighborhood Organization",
+    "address": "511 Main Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 2
+  }, {
+    "lat": 40.494693,
+    "lon": -79.934750,
+    "name": "Cleaning Concepts",
+    "address": "511 Main Street, Pittsburgh, PA 15215",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 1
+  }, {
+    "lat": 40.407090,
+    "lon": -79.941730,
+    "name": "Spartan Center",
+    "address": "134 East Elizabeth Street, Pittsburgh, PA 15207",
+    "hood": "Sharpsburg",
+    "status": "live",
+    "device_count": 5
   }, {
     "lat": 40.422350,
     "lon": -79.991101,
@@ -99,18 +171,10 @@ onLoadMarkers(
     "lat": 40.420739,
     "lon": -79.993445,
     "name": "High Hrothgar",
-    "address": "20 Allen St, Pittsburgh, PA, 15210",
+    "address": "201 Allen St, Pittsburgh, PA, 15210",
     "hood": "Allentown",
     "status": "live",
     "device_count": 2
-  }, {
-    "lat": 40.450606,
-    "lon": -79.975674,
-    "name": "Bedford Dwellings",
-    "address": "Pittsburgh, PA 15219",
-    "hood": "Hill District",
-    "status": "planned",
-    "device_count": 1
   }, {
     "lat": 40.409928,
     "lon": -80.024493,
@@ -186,7 +250,7 @@ onLoadMarkers(
   }, {
     "lat": 40.402181,
     "lon": -79.867230,
-    "name": "Infamous Cutz",
+    "name": "Barbershop",
     "address": "704 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live",
@@ -200,35 +264,11 @@ onLoadMarkers(
     "status": "live",
     "device_count": 1
   }, {
-    "lat": 40.430472,
-    "lon": -79.985556,
-    "name": "Penguino Labs",
-    "address": "20-1/2 South 13th",
-    "hood": "South Side",
-    "status": "live",
-    "device_count": 2
-  }, {
     "lat": 40.403990,
     "lon": -79.869722,
     "name": "Free Press Building",
     "address": "528 Braddock Ave, Braddock, PA 15104",
     "hood": "Braddock",
-    "status": "live",
-    "device_count": 1
-  }, {
-    "lat": 40.422404,
-    "lon": -79.994728,
-    "name": "Anonymous",
-    "address": "700 block Carnival Way., Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live",
-    "device_count": 1
-  }, {
-    "lat": 40.432635,
-    "lon": -79.927568,
-    "name": "5000 Hobart",
-    "address": "5000 Hobart st., Pittsburgh, PA 15217",
-    "hood": "Squirrel Hill",
     "status": "live",
     "device_count": 1
   }, {
@@ -276,14 +316,6 @@ onLoadMarkers(
     "lon": -79.860981,
     "name": "UnSmoke Systems Art Space",
     "address": "1137 Braddock Ave., Braddock, PA 15104",
-    "hood": "Braddock",
-    "status": "live",
-    "device_count": 2
-  }, {
-    "lat": 40.403215,
-    "lon": -79.868299,
-    "name": "Bell's Market",
-    "address": "603 Braddock Ave., Braddock, PA 15104",
     "hood": "Braddock",
     "status": "live",
     "device_count": 2
@@ -336,14 +368,6 @@ onLoadMarkers(
     "status": "live",
     "device_count": 1
   }, {
-    "lat": 40.416747,
-    "lon": -79.986724,
-    "name": "127 Brownsville Rd., Mt Oliver, PA 15210",
-    "address": "127 Brownsville Rd., Mt Oliver, PA 15210",
-    "hood": "Mt. Oliver",
-    "status": "live",
-    "device_count": 3
-  }, {
     "lat": 40.42162363944305,
     "lon": -79.99721378087997,
     "name": "600 E Warrington Ave",
@@ -375,14 +399,6 @@ onLoadMarkers(
     "hood": "South Side Slopes",
     "status": "live",
     "device_count": 5
-  }, {
-    "lat": 40.421876,
-    "lon": -79.9931352,
-    "name": "UniqueHome",
-    "address": "815 E Warrington Ave, Pittsburgh, PA 15210",
-    "hood": "Allentown",
-    "status": "live",
-    "device_count": 1
   }, {
     "lat": 40.437934569892626,
     "lon": -79.9780909717083,
@@ -431,22 +447,6 @@ onLoadMarkers(
     "hood": "Braddock",
     "status": "live",
     "device_count": 2
-  }, {
-    "lat": 40.394291,
-    "lon": -80.008284,
-    "name": "1415 Milan Ave",
-    "address": "1415 Milan Ave, Brookline, 15226",
-    "hood": "Brookline",
-    "status": "live",
-    "device_count": 2
-  }, {
-    "lat": 40.394356,
-    "lon": -80.004999,
-    "name": "Crookline Data Center",
-    "address": "1517 Milan Ave, Brookline, 15226",
-    "hood": "Brookline",
-    "status": "live",
-    "device_count": 1
   }, {
     "lat": 40.404736,
     "lon": -79.870861,
@@ -508,22 +508,6 @@ onLoadMarkers(
     "lon": -79.979867,
     "name": "Gaudenzia Erie Inc",
     "address": "2012 Centre Ave, Pittsburgh, PA 15219",
-    "hood": "Hill District",
-    "status": "live",
-    "device_count": 1
-  }, {
-    "lat": 40.445296,
-    "lon": -79.973935,
-    "name": "MOKA Art Gallery",
-    "address": "502 Soho Street, Pitsburgh, PA 15219",
-    "hood": "Hill District",
-    "status": "live",
-    "device_count": 1
-  }, {
-    "lat": 40.445591,
-    "lon": -79.970507,
-    "name": "Power 59 LLC",
-    "address": "2503 Centre Ave",
     "hood": "Hill District",
     "status": "live",
     "device_count": 1
