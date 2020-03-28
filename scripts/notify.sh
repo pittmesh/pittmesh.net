@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 MESSAGE="$(jo \
-  channel=general-internal-chat \
+  channel=automation-firehose \
   username=travis-ci \
   icon_url=https://travis-ci.com/images/logos/TravisCI-Mascot-1.png \
   text="$1")"
